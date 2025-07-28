@@ -1,0 +1,44 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hallo!", "Guten Tag!", "Ich grüße dich!" ]
+        },
+        "languageCode": "de"
+      } ]
+    },
+    "name": "cb159b93-fb20-4a38-917a-bec8f2db54f1"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ich verstehe deine Frage leider nicht.", "Entschuldige bitte, ich habe deine Frage nicht verstanden.", "Ich bin nicht so sicher, ob ich dich richtig verstanden habe.", "Leider kann ich nicht verstehen, was du von mir möchtest.", "Kannst du das noch mal anders formulieren?" ]
+        },
+        "languageCode": "de"
+      } ]
+    },
+    "name": "ba102fa9-4c05-41b6-afb6-992b3d879820"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ich verstehe deine Frage leider nicht.", "Entschuldige bitte, ich habe deine Frage nicht verstanden.", "Ich bin nicht so sicher, ob ich dich richtig verstanden habe.", "Leider kann ich nicht verstehen, was du von mir möchtest.", "Kannst du das noch mal anders formulieren?" ]
+        },
+        "languageCode": "de"
+      } ]
+    },
+    "name": "ed8380d9-7093-4366-8df1-27281db86f00"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  }
+}

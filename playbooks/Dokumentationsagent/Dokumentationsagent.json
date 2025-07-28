@@ -1,0 +1,13 @@
+{
+  "name": "5401b390-0e4d-48fc-be69-357e16129095",
+  "displayName": "Dokumentationsagent",
+  "goal": "stellt dokumentation bereit",
+  "tokenCount": 6,
+  "instruction": {
+  
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "6bdbbce1-f805-43b1-bcd7-d61d255e1651",
+  "displayName": "Rückrufsagent",
+  "goal": "stellt rückruf bereit",
+  "tokenCount": 6,
+  "instruction": {
+  
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "trainingPhrases": [ {
+    "id": "fcb3ff4e-74bd-4a57-a343-dd0f364082d8",
+    "parts": [ {
+      "text": "ja hallo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "a8224f56-0eb4-43f2-a861-cf1c6ca05a21",
+    "parts": [ {
+      "text": "ich grüße dich",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "a1e074c8-9179-4cf5-ace6-b89dc9ffa042",
+    "parts": [ {
+      "text": "hallöchen",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "f0f6dab0-945f-424f-ae1f-d2fa7622d4b1",
+    "parts": [ {
+      "text": "hallo Schatzi",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "c1ae0f9d-3efd-448b-9a11-788a6230e648",
+    "parts": [ {
+      "text": "hallo Schatz",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "a7c362bb-0928-48c5-b039-590acec5361d",
+    "parts": [ {
+      "text": "hallo hallo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "3e89e006-1425-43ad-953d-6f815597c3e6",
+    "parts": [ {
+      "text": "hallo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "id": "bb9211c9-bfbd-4a68-928a-e679b1a13294",
+    "parts": [ {
+      "text": "grüß dich",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  } ]
+}

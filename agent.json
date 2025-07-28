@@ -1,0 +1,48 @@
+{
+  "displayName": "mv-zahnzusatzver",
+  "defaultLanguageCode": "de",
+  "timeZone": "Europe/Madrid",
+  "enableLogging": true,
+  "projectNumber": 553278931801,
+  "speechToTextSettings": {
+  
+  },
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/553278931801/locations/global/collections/default_collection/engines/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69-chat-1753730877"
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "startPlaybook": "Salesagent",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

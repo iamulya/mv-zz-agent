@@ -1,0 +1,13 @@
+{
+  "name": "998a90d7-9fe4-4eb3-8236-ef10314f827b",
+  "displayName": "Antragsagent",
+  "goal": "stellt antrag bereit",
+  "tokenCount": 6,
+  "instruction": {
+  
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}

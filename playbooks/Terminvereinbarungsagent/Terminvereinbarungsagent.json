@@ -1,0 +1,13 @@
+{
+  "name": "3ce8378a-f2ef-43ab-b9a8-aca6aa8f90c3",
+  "displayName": "Terminvereinbarungsagent",
+  "goal": "stellt termin bereit",
+  "tokenCount": 5,
+  "instruction": {
+  
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}
