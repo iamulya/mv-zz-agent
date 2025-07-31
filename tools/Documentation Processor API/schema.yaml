@@ -1,0 +1,85 @@
+openapi: 3.0.0
+info:
+  title: Doc Pro API
+  description: Doc Pro API.
+  version: 1.0.0
+servers:
+  - url: https://mv-documentation-processor-553278931801.europe-west1.run.app
+paths:
+  /:
+    get:
+      summary: Gets complete conversation for a conversation id, creates a summary for it and uploads the result in a cloud storage bucket
+      description: Gets complete conversation for a conversation id, creates a summary for it and uploads the result in a cloud storage bucket
+      operationId: process_conversation
+      parameters:
+        - name: conversation_id
+          in: query
+          description: ID of session to return
+          required: true
+          schema:
+            $ref: '@dialogflow/sessionId'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProcessorResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+components:
+  schemas:
+    ProcessorResponse:
+      properties:
+        status:
+          type: string
+          default: success
+          title: status
+        message:
+          type: string
+          title: message
+        bucket:
+          type: string
+          title: bucket
+        filename:
+          type: string
+          title: filename
+      type: object
+      required:
+        - message
+        - contract_id
+      title: ActionResponse
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+              - type: string
+              - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+      type: object
+      required:
+        - loc
+        - msg
+        - type
+      title: ValidationError

@@ -1,0 +1,9 @@
+{
+  "name": "79a84ab9-44ba-4b2f-802d-6525b09f2443",
+  "displayName": "appointment-remover",
+  "description": "This tool can be used to remove the outlook appointments",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "3d5e3bd7-0b8a-4492-a54c-2f077618433c",
+  "displayName": "send-email",
+  "description": "send customer an email with the summerised information of the appointment",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

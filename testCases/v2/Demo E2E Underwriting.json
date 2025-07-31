@@ -1,0 +1,1026 @@
+{
+  "name": "7bdf9a7b-64d3-407d-ba27-19d5ea7b17d4",
+  "displayName": "Demo E2E Underwriting",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hallo, ich würde gerne mehr über Zahnzusatzversicherungen Erfahren"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**" ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Hallo, ich würde gerne mehr über Zahnzusatzversicherungen Erfahren"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**"
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Nein"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?" ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Nein"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?"
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ich habe noch alle meine Zähne"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Ich habe noch alle meine Zähne"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ich brauche vor allem Zahnersatz"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Wenn Sie Wert auf Zahnersatz legen, bieten unsere Tarife hier unterschiedliche Erstattungsgrade:\n\n*   **ZahnGesund 75+** erstattet bis zu 80 % der Kosten.\n*   **ZahnGesund 85+** erstattet bis zu 90 % der Kosten.\n*   **ZahnGesund 100** erstattet bis zu 100 % der Kosten.\n\nWelcher Tarif für Sie am besten geeignet ist, hängt auch davon ab, wie viel Ihnen ein möglichst hoher Erstattungsanteil wert ist." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Ich brauche vor allem Zahnersatz"
+              }
+            }, {
+              "toolUse": {
+                "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/6b9b1d19-3c8e-4afb-a7d2-cee50597d7e7",
+                "action": "get_zz_info",
+                "inputActionParameters": {
+                  "requestBody": {
+                    "query": "Unterschiede bei Zahnersatz ZahnGesund 75+, ZahnGesund 85+, ZahnGesund 100"
+                  }
+                },
+                "outputActionParameters": {
+                  "200": {
+                    "answer": "Der Tarif ZahnGesund 75+ erstattet bis zu 80 % der Kosten für Zahnersatz, ZahnGesund 85+ bis zu 90 % und ZahnGesund 100 bis zu 100 %.",
+                    "snippets": [ {
+                      "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                      "title": "Zahnzusatzversicherung",
+                      "uri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf#page=2"
+                    } ]
+                  }
+                },
+                "dataStoreToolTrace": {
+                  "dataStoreConnectionSignals": {
+                    "rewriterModelCallSignals": {
+                      "renderedPrompt": "You observe conversations between a human and an AI assistant working at .\nYour goal is to perform a search query to help the AI assistant respond to the human's last statement.\n* Always output the best search query you can, even if you suspect it's not needed.\n* Never generate a query that is the same as the user's last statement.\n* Include as much context as necessary from the conversation history.\n* Output a concise search query, and nothing else.\n* Don't use quotes or search operators.\n* The query must be in German.\n\nConversation History:\nHuman: Hallo, ich würde gerne mehr über Zahnzusatzversicherungen Erfahren\nAI: Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**\nHuman: Nein\nAI: Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?\nHuman: Ich habe noch alle meine Zähne\nAI: Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt.\nHuman: Unterschiede bei Zahnersatz ZahnGesund 75+, ZahnGesund 85+, ZahnGesund 100\nSearch Query: ",
+                      "modelOutput": "Unterschiede ZahnGesund 75+ 85+ 100 Zahnersatz",
+                      "model": "gemini-2.5-flash"
+                    },
+                    "rewrittenQuery": "Unterschiede ZahnGesund 75+ 85+ 100 Zahnersatz",
+                    "searchSnippets": [ {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c2"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Kieferorthopädie für |  |  |  |\n| Erwachsene ab 19 Jahre \u003cbr\u003e |  |  |  |\n| Info: ZahnGesund 75+: Bei Unfall 75% max. 1.000 €. ZahnGesund |  |  |  |\n|  |  |  |  |\n| 85+: Bei Unfall 85 % max. 2.500 €. ZahnGesund 100: 100% max. 2.500 €. Μaximale | bis 75% | bis 85% | bis 100% |\n| Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |\n|  |  |  |  |\n| Zahn-Bleaching \u003cbr\u003e Info: Kosten für Zahnbleaching werden alle 2 Versicherungsjahre | Nein | Nein | bis 200 € |\n| übernommen, wenn es von einem Zahnarzt durchgeführt oder angeleitet wird. |  |  |  |\n|  |  |  |  |\n| Akupunktur, Narkose, etc. zur Schmerzlinderung \u003cbr\u003e Info: Geleistet wird für schmerzlindernde Maßnahmen während der Behandlung, u.a. auch für Lachgas und Hypnose. | bis 75 € | bis 150 € | bis 300 € |\n| Leistungsstaffel |  |  |  |\n| 1. Versicherungsjahr | 900 € | 1.000 € | 1.500 € |\n| 2. Versicherungsjahr | 1.800 € | 2.000 € | 3.000 € |\n| 3. Versicherungsjahr | 2.700 € | 3.000 € | 4.500 € |\n| 4. Versicherungsjahr | 3.600 € | 4.000 € | 6.000 € |\n| ab dem 5. Versicherungsjahr | unbegrenzt | unbegrenzt | unbegrenzt |\n| Anrechnung der Vorversicherung für Wechsler |  |  |  |\n| Vorversicherungszeit | mind. 12 Monate | mind. 12 Monate | mind. 12 Monate |\n| Unterjährige Vertragswechsel | zählt als volles Jahr | zählt als volles Jahr | zählt als volles Jahr |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein10\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Mindestleistung Zahnersatz | mind. 70% | mind. 80% | mind. 90% |\n| Weitere Vorteile |  |  |  |\n| Bonusheft-Upgrade \u003cbr\u003e Info: Bei 10 Jahre lückenlos geführtem Bonusheft erhalten Sie 5 % Leistungs-Upgrade für Zahnersatz in den Tarifen | Ja | Ja | Ja |\n| ZahnGesund 75+ und 85+. |  |  |  |\n| Keine Wartezeit | Ja | Ja | Ja |\n| Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen  Tarif und Bedingungen Ihr Monatsbeitrag | Ja Ja GUT (1,8) bei Stiftung Warentest 07/2025 ZahnGesund 75+ (pdf). Online | Ja Ja SEHR GUT (1,3) bei Stiftung Warentest 07/2025 ZahnGesund 85+ (pdf). Online | Ja Ja SEHR GUT ( bei Stiftung Warentest 07/2025 ZahnGesund (pdf). Online ייייייייי   0,5)    100 |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  | abschließen | abschließen | abschließen |\n\n_END_OF_TABLE_\n",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c7"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "## Zahnzusatzversicherung: beste Tarife¹ für Ihre Zahngesundheit\n\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein8\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund (Testsieger) | 100 |\n|-|-|-|-|-|\n| Zahnbehandlung (z. B. hochwertige Füllungen) | 100% | 100% | 100% |  |\n| Wurzel- und Parodontose- Behandlung \u003cbr\u003e Info: Wurzel- und Parodontose-Behandlung werden in den Tarifen 577 und 578 ohne GKV-Vorleistung zu 75 % bzw. 85% erstattet. |  |  |  |  |\n|  | bis 100% | bis 100% | 100% |  |\n|  |  |  |  |  |\n| Zahnersatz \u003cbr\u003e Info: |  |  |  |  |\n| ZahnGesund 75+: 75% |  |  |  |  |\n| Erstattung inkl. GKV + 5 % |  |  |  |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 85+:85 % Erstattung inkl. GKV + 5% | bis 80% | bis 90% | bis 100% |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 100: 100 |  |  |  |  |\n| % Erstattung inkl. GKV- |  |  |  |  |\n| Vorleistung. |  |  |  |  |\n| Zahnprophylaxe \u003cbr\u003e Info: ZahnGesund 75+: 2 × 75 € pro |  |  |  |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 85+: 2 × 85 € pro | bis 150 € | bis 170 € | bis 200 € |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 100: 2 × 100 € pro Versicherungsjahr. |  |  |  |  |\n| Kieferorthopädie für Kinder bis |  |  |  |  |\n| 18 Jahre \u003cbr\u003e Info: Leistung für |  |  |  |  |\n| KIG 1-5. ZahnGesund 75+: Bei |  |  |  |  |\n| Unfall, 75 % max. 1.000 €. |  |  |  |  |\n| ZahnGesund 85+: Bei Unfall, 85 % max. 2.500 €. ZahnGesund 100: 100% max. 5.000 €. | bis 75% | bis 85% | bis 100% |  |\n| Maximale Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |  |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein9",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c6"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "## Leistungen und Kosten beim Zahnersatz\n\nEgal ob unfall-, alters- oder kariesbedingt - das Thema Zahnersatz betrifft fast jeden. Und je nach Art des Materials, kann dieser ganz schön teuer werden. Aber wer übernimmt finanziell die Leistungen für Zahnersatz? Die Kassen erstatten nur etwa 60 % der anfallenden Zahnarztkosten. Den Restbetrag müssen Sie selbst zahlen. Möchten Sie zusätzlich statt der Standardtherapie noch einen erstklassigen Zahnersatz, wird die gesamte Summe fällig. Eine Zahnbrücke istZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein12 eine Art von Zahnersatz, der bis zu vier fehlende Zähne ersetzt, indem künstliche Zahnkronen an benachbarten gesunden Zähnen befestigt werden.\n\n### Kosten bei Inlays \u0026 Onlays\n\nDurch die Regelversorgung sind nur Füllungen aus Kunststoff oder Amalgam abgedeckt. Vor allem Amalgam steht jedoch aufgrund des hohen Quecksilber- Gehaltes im Verruf und darf bei bestimmten Personengruppen nicht angewendet werden. Außerdem liegt die Haltbarkeit dieser Füllungen bei nur vier bis acht Jahren. Mit unseren Tarifen werden die Kosten um bis zu 100% übernommen. Zusätzlich können die Kosten beispielsweise für Inlays abhängig von der Art des verwendeten Materials und der Komplexität des Eingriffs bis zu 1.000 € betragen. Als Zahnersatz bieten Inlays und Onlays eine hervorragende Möglichkeit, die natürliche Funktion und Ästhetik der Zähne langfristig zu erhalten.InlaysRechnung: bis zu1.000 €Abzug Kassenleistung: • 50 €3 Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 950 €\n\nIhr Anteil20:\n\n### 0 €\n\n### Onlays\n\nRechnung: bis zu1.200 €Abzug Kassenleistung: • 242 €Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein13 Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 958 €\n\nIhr Anteil20: 0~\\xi^{4}\n\n### Kosten bei Kronen, Brücken \u0026 Prothesen\n\nDie gesetzliche Krankenversicherung (GKV) zahlt nur einen Teil der Kosten für Zahnersatz. Zahlt die Zahnzusatzversicherung, werden zusätzlich verbleibende Zahnarztkosten für Füllungen, Kronen, Brücken und Implantate übernommen. Zudem kommt, dass in der sogenannten Regelversorgung nur einfache und klinisch ausreichende Materialien eingesetzt werden. Die Ästhetik spielt hierbei meist keine Rolle. Bei uns werden sowohl für Implantate als auch Zahnkronen bis zu 100 % der Kosten inkl. GKV-Vorleistung übernommen. Die Anzahl der während der Vertragslaufzeit notwendigen Zahnimplantate ist hierbei unbegrenzt - ist ein Implantat medizinisch notwendig, wird geleistet. Die Kosten für das Ersatzmaterial bei Knochenaufbau werden ebenfalls übernommen.\n\n### Zahnbrücke (Keramik-Brücke)\n\nRechnung: bis zu2.500 €Abzug Kassenleistung: • 530 € Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 1.970 €\n\nIhr Anteil20: 0 €\n\n### Zahnprothese (Teleskopprothese pro Kiefer)\n\nRechnung: bis zu 10.000 €Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein14 Abzug Kassenleistung: • 3.000 € Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 7.000 €\n\nIhr Anteil20: 0~\\epsilon^{9}\n\n### Zahnkrone (Vollkeramik)\n\nRechnung: bis zu1.100 €Abzug Kassenleistung: • 230 € Ihr Eigenanteil ohne Zahnzusatzversicherung:bis zu 870 €Ihr Anteil20: 0 €10",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c10"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "### Kosten bei Implantate \u0026 Knochenaufbau\n\nDurch die Regelversorgung abgedeckte Kronen bestehen hierbei aus Metall und werden nicht an das eigene Zahnweiß angepasst. Eine Möglichkeit, um zu verhindern, dass sich der Zahnersatz sichtbar von den eigenen Zähnen unterscheidet, sind Zahnkronen aus Keramik. Diese werden an die eigene Zahnfarbe angepasst und sind somit nicht von den anderen Zähnen zu unterscheiden. Die Zahnarztkosten für Zahnimplantate steigen tendenziell, während die gesetzlichen Krankenkassen nur einen Festzuschuss basierend auf der Regelversorgung übernehmen, was oft nicht ausreicht, um die hohen Gesamtkosten zu decken. Wir unterstützen Sie bei der Finanzierung des Zahnersatzes mit bis zu 100 % Kostenübernahme inkl. GKV-Vorleistung.Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein15\n\n# Implantat (mit Krone)\n\nRechnung: bis zu\n\n## 4.000 €\n\nAbzug Kassenleistung: • 530 € Ihr Selbstkostenanteil ohne Zahnzusatzversicherung:\n\n# bis zu 3.470 €\n\nIhr Anteil20:\n\n# 0 €\n\n# Knochenaufbau (Sinuslift)\n\nRechnung: bis zu\n\n## 1.400 €\n\nAbzug Kassenleistung:\n\n## 0 €\n\n• Ihr Selbstkostenanteil ohne Zahnzusatzversicherung:\n\n# bis zu 1.400 €\n\nIhr Anteil20: 0 €11 Trotz fehlender Kassenleistung kein Abzug, da es als ein Behandlungsfall zu sehen ist.\n\n# Kosten bei Veneers \u0026 Verblendschalen\n\nBei Veneers erhalten Sie keine Leistungen der Kassen und müssen selbst für die hohe Rechnung aufkommen. Unsere Zahnzusatzversicherung übernimmt beiZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein16 nachgewiesener medizinischer Notwendigkeit jedoch bis zu 100 % inkl. GKV- Vorleistung für keramische Verblendungen. Leistet die Kasse nicht vor, gelten pauschal 35% als Vorleistung. Somit steht einem schönen Lächeln nichts mehr im Weg.\n\n# Veneers\n\nRechnung: bis zu\n\n# 1.200 €\n\nTariflicher Abzug bei fehlender Kassenleistung:\n\n# 420 €\n\nIhr Selbstkostenanteil ohne Zahnzusatzversicherung:\n\n# bis zu 1.200 €\n\nIhr Anteil20: 420 €12",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c11"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "# Leistungen der Zahnzusatzversicherung im Überblick\n\nDie eigene Zahngesundheit ist wichtiger Bestandteil des persönlichen Wohlbefindens. Doch das tägliche Zähneputzen allein reicht für gesunde Zähne nicht aus. Eine regelmäßige Zahnprophylaxe ist die perfekte Ergänzung zu den eigenen Bestrebungen, um das Risiko von Zahnschäden zu minimieren. Sollten die eigenen Zähne trotz der richtigen Mundhygiene und Kontrollmaßnahmen dennoch Schwierigkeiten bereiten, ist es wichtig abgesichert zu sein, um unerwartete Ausgaben zu verhindern. Unsere Zahnzusatzversicherung bietet Ihnen die beste Kombination aus Zahnvorsorge und Behandlungsmaßnahmen sowie kieferorthopädische Leistungen und Bleaching20. Wir erklären Ihnen, welche potenziellen Zahnarztkosten auf Sie zukommen können und wie wir Sie mit unserem Tarif ZahnGesund 100 finanziell dabei unterstützen:",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c9"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "# Zahnzusatzversicherung: Testsieger \"SEHR GUT\" Münchener Verein\n\n## Zahnzusatzversicherung\n\n### Testsieger bei Stiftung Warentest\n\n• Bis zu 100 % Kostenerstattung • Für Zahnersatz, Zahnerhalt, Zahnprophylaxe und Kieferorthopädie • Sofortschutz ohne Wartezeit • Inkl. Innovationsgarantie Trustpilot Bewertung von 4,3 von 5\n\n## Warum ist eine private Zahnzusatzversicherung wichtig?\n\nGesetzliche Krankenkassen decken oft nur Basisleistungen ab und übernehmen nur einen Teil der tatsächlichen Kosten für Zahnersatz, kieferorthopädische Behandlungen und Zahnfüllungen. Die gesetzliche Krankenkasse bezahlt nur Standardleistungen und erstattet z.B. Zusatzkosten für hochwertigen Zahnersatz, Zahnbehandlungen oder kieferorthopädische Behandlungen nicht. Um hohe Zahnarztkosten zu mindern und sich Top-Behandlungen zu sichern, ist eine passende Zahnzusatzversicherung empfehlenswert. Unsere Zahnzusatzversicherung reduziert die finanzielle Belastung bei hohen Zahnarztkosten und gibt Ihnen die Möglichkeit, Ihre Zahngesundheit zu bewahren und zu fördern. • Umfassende Kostendeckung: Wir übernehmen Ihren Eigenanteil und erstatten Ihnen bis zu 100 % der Kosten für Zahnersatz, Zahnbehandlungen, Zahnprophylaxe und Kieferorthopädie! • Premium Behandlungsqualität: Genießen Sie die Versorgung durch modernste Behandlungen und hochwertige Materialien.Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein1 • Zahnpflege: Übernahme der Kosten für Prophylaxemaßnahmen zur langfristigen Erhaltung Ihrer Zahngesundheit. • • Strahlendes Lächeln inklusive: Wir übernehmen alle zwei Jahre die Kosten für Ihr Bleaching - max. bis 200 €! Erweiterter Leistungsbereich: Profitieren Sie von modernsten Behandlungen und innovativen Technologien.",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c1"
+                    } ],
+                    "answerGenerationModelCallSignals": {
+                      "renderedPrompt": "Given the conversation between a customer and a helpful assistant and a list of sources, write a final relevant answer for the assistant.\nIf the last question from the customer is related to the previous conversation, take the conversation history into account, otherwise just respond to the last question.\n# Follow these guidelines:\n* The response must be directly supported by the provided sources and every statement must be followed by an inline citation. Use the format [i] for single sources and [i, j] for multiple sources. i, j must be the exact digits used in the Sources section (same alphabet)\n* Never refer to the given sources. Avoid all phrases like `according to the sources` or `provided text` or `mentioned in the sources` in the response.\n* Respond using the exact numerical values provided in the prompt. Do not change the format of any numbers, even if they are spelled out or contain unusual formatting\n* Be concise (fit under 200 characters), but answer the customer question first and foremost\n* Use markdown lists to organize key points, advantages, and disadvantages if it helps readability. Use bullet points (`-`) for individual items and numbered lists (`1.`, `2.`) for sequential steps or points\n* Avoid bolding (**)\n* If the customer's question is a single term or topic that is covered in the sources, respond with a very short summary about the topic\n* The answer MUST be in German.\n\n# Instructions for Answering\n* You MUST attempt to answer the user's query using the provided sources. Your goal is to extract and synthesize any and all available information to construct an answer.\n* If the information is not definitive, provide the most likely answer based on the available evidence and qualify your answer with phrases like: \"It appears that...\"\n* If the sources only provide partial information, answer what you can and explicitly state what could not be determined from the sources.\n* You may ONLY, as an absolute last resort, respond with `NICHT_GENUG_INFORMATION` if and only if the provided sources are 100% irrelevant to the query and literally none of the information can be used to form any coherent or even speculative answer to any part of the question.\n\n# Sources\n[1] Zahnzusatzversicherung\n## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n\n[2] Zahnzusatzversicherung\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Kieferorthopädie für |  |  |  |\n| Erwachsene ab 19 Jahre \u003cbr\u003e |  |  |  |\n| Info: ZahnGesund 75+: Bei Unfall 75% max. 1.000 €. ZahnGesund |  |  |  |\n|  |  |  |  |\n| 85+: Bei Unfall 85 % max. 2.500 €. ZahnGesund 100: 100% max. 2.500 €. Μaximale | bis 75% | bis 85% | bis 100% |\n| Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |\n|  |  |  |  |\n| Zahn-Bleaching \u003cbr\u003e Info: Kosten für Zahnbleaching werden alle 2 Versicherungsjahre | Nein | Nein | bis 200 € |\n| übernommen, wenn es von einem Zahnarzt durchgeführt oder angeleitet wird. |  |  |  |\n|  |  |  |  |\n| Akupunktur, Narkose, etc. zur Schmerzlinderung \u003cbr\u003e Info: Geleistet wird für schmerzlindernde Maßnahmen während der Behandlung, u.a. auch für Lachgas und Hypnose. | bis 75 € | bis 150 € | bis 300 € |\n| Leistungsstaffel |  |  |  |\n| 1. Versicherungsjahr | 900 € | 1.000 € | 1.500 € |\n| 2. Versicherungsjahr | 1.800 € | 2.000 € | 3.000 € |\n| 3. Versicherungsjahr | 2.700 € | 3.000 € | 4.500 € |\n| 4. Versicherungsjahr | 3.600 € | 4.000 € | 6.000 € |\n| ab dem 5. Versicherungsjahr | unbegrenzt | unbegrenzt | unbegrenzt |\n| Anrechnung der Vorversicherung für Wechsler |  |  |  |\n| Vorversicherungszeit | mind. 12 Monate | mind. 12 Monate | mind. 12 Monate |\n| Unterjährige Vertragswechsel | zählt als volles Jahr | zählt als volles Jahr | zählt als volles Jahr |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein10\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Mindestleistung Zahnersatz | mind. 70% | mind. 80% | mind. 90% |\n| Weitere Vorteile |  |  |  |\n| Bonusheft-Upgrade \u003cbr\u003e Info: Bei 10 Jahre lückenlos geführtem Bonusheft erhalten Sie 5 % Leistungs-Upgrade für Zahnersatz in den Tarifen | Ja | Ja | Ja |\n| ZahnGesund 75+ und 85+. |  |  |  |\n| Keine Wartezeit | Ja | Ja | Ja |\n| Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen  Tarif und Bedingungen Ihr Monatsbeitrag | Ja Ja GUT (1,8) bei Stiftung Warentest 07/2025 ZahnGesund 75+ (pdf). Online | Ja Ja SEHR GUT (1,3) bei Stiftung Warentest 07/2025 ZahnGesund 85+ (pdf). Online | Ja Ja SEHR GUT ( bei Stiftung Warentest 07/2025 ZahnGesund (pdf). Online ייייייייי   0,5)    100 |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  | abschließen | abschließen | abschließen |\n\n_END_OF_TABLE_\n\n[3] Zahnzusatzversicherung\n## Zahnzusatzversicherung: beste Tarife¹ für Ihre Zahngesundheit\n\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein8\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund (Testsieger) | 100 |\n|-|-|-|-|-|\n| Zahnbehandlung (z. B. hochwertige Füllungen) | 100% | 100% | 100% |  |\n| Wurzel- und Parodontose- Behandlung \u003cbr\u003e Info: Wurzel- und Parodontose-Behandlung werden in den Tarifen 577 und 578 ohne GKV-Vorleistung zu 75 % bzw. 85% erstattet. |  |  |  |  |\n|  | bis 100% | bis 100% | 100% |  |\n|  |  |  |  |  |\n| Zahnersatz \u003cbr\u003e Info: |  |  |  |  |\n| ZahnGesund 75+: 75% |  |  |  |  |\n| Erstattung inkl. GKV + 5 % |  |  |  |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 85+:85 % Erstattung inkl. GKV + 5% | bis 80% | bis 90% | bis 100% |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 100: 100 |  |  |  |  |\n| % Erstattung inkl. GKV- |  |  |  |  |\n| Vorleistung. |  |  |  |  |\n| Zahnprophylaxe \u003cbr\u003e Info: ZahnGesund 75+: 2 × 75 € pro |  |  |  |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 85+: 2 × 85 € pro | bis 150 € | bis 170 € | bis 200 € |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 100: 2 × 100 € pro Versicherungsjahr. |  |  |  |  |\n| Kieferorthopädie für Kinder bis |  |  |  |  |\n| 18 Jahre \u003cbr\u003e Info: Leistung für |  |  |  |  |\n| KIG 1-5. ZahnGesund 75+: Bei |  |  |  |  |\n| Unfall, 75 % max. 1.000 €. |  |  |  |  |\n| ZahnGesund 85+: Bei Unfall, 85 % max. 2.500 €. ZahnGesund 100: 100% max. 5.000 €. | bis 75% | bis 85% | bis 100% |  |\n| Maximale Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |  |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein9\n\n[4] Zahnzusatzversicherung\n## Leistungen und Kosten beim Zahnersatz\n\nEgal ob unfall-, alters- oder kariesbedingt - das Thema Zahnersatz betrifft fast jeden. Und je nach Art des Materials, kann dieser ganz schön teuer werden. Aber wer übernimmt finanziell die Leistungen für Zahnersatz? Die Kassen erstatten nur etwa 60 % der anfallenden Zahnarztkosten. Den Restbetrag müssen Sie selbst zahlen. Möchten Sie zusätzlich statt der Standardtherapie noch einen erstklassigen Zahnersatz, wird die gesamte Summe fällig. Eine Zahnbrücke istZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein12 eine Art von Zahnersatz, der bis zu vier fehlende Zähne ersetzt, indem künstliche Zahnkronen an benachbarten gesunden Zähnen befestigt werden.\n\n### Kosten bei Inlays \u0026 Onlays\n\nDurch die Regelversorgung sind nur Füllungen aus Kunststoff oder Amalgam abgedeckt. Vor allem Amalgam steht jedoch aufgrund des hohen Quecksilber- Gehaltes im Verruf und darf bei bestimmten Personengruppen nicht angewendet werden. Außerdem liegt die Haltbarkeit dieser Füllungen bei nur vier bis acht Jahren. Mit unseren Tarifen werden die Kosten um bis zu 100% übernommen. Zusätzlich können die Kosten beispielsweise für Inlays abhängig von der Art des verwendeten Materials und der Komplexität des Eingriffs bis zu 1.000 € betragen. Als Zahnersatz bieten Inlays und Onlays eine hervorragende Möglichkeit, die natürliche Funktion und Ästhetik der Zähne langfristig zu erhalten.InlaysRechnung: bis zu1.000 €Abzug Kassenleistung: • 50 €3 Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 950 €\n\nIhr Anteil20:\n\n### 0 €\n\n### Onlays\n\nRechnung: bis zu1.200 €Abzug Kassenleistung: • 242 €Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein13 Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 958 €\n\nIhr Anteil20: 0~\\xi^{4}\n\n### Kosten bei Kronen, Brücken \u0026 Prothesen\n\nDie gesetzliche Krankenversicherung (GKV) zahlt nur einen Teil der Kosten für Zahnersatz. Zahlt die Zahnzusatzversicherung, werden zusätzlich verbleibende Zahnarztkosten für Füllungen, Kronen, Brücken und Implantate übernommen. Zudem kommt, dass in der sogenannten Regelversorgung nur einfache und klinisch ausreichende Materialien eingesetzt werden. Die Ästhetik spielt hierbei meist keine Rolle. Bei uns werden sowohl für Implantate als auch Zahnkronen bis zu 100 % der Kosten inkl. GKV-Vorleistung übernommen. Die Anzahl der während der Vertragslaufzeit notwendigen Zahnimplantate ist hierbei unbegrenzt - ist ein Implantat medizinisch notwendig, wird geleistet. Die Kosten für das Ersatzmaterial bei Knochenaufbau werden ebenfalls übernommen.\n\n### Zahnbrücke (Keramik-Brücke)\n\nRechnung: bis zu2.500 €Abzug Kassenleistung: • 530 € Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 1.970 €\n\nIhr Anteil20: 0 €\n\n### Zahnprothese (Teleskopprothese pro Kiefer)\n\nRechnung: bis zu 10.000 €Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein14 Abzug Kassenleistung: • 3.000 € Ihr Eigenanteil ohne Zahnzusatzversicherung:\n\n### bis zu 7.000 €\n\nIhr Anteil20: 0~\\epsilon^{9}\n\n### Zahnkrone (Vollkeramik)\n\nRechnung: bis zu1.100 €Abzug Kassenleistung: • 230 € Ihr Eigenanteil ohne Zahnzusatzversicherung:bis zu 870 €Ihr Anteil20: 0 €10\n\n[5] Zahnzusatzversicherung\n### Kosten bei Implantate \u0026 Knochenaufbau\n\nDurch die Regelversorgung abgedeckte Kronen bestehen hierbei aus Metall und werden nicht an das eigene Zahnweiß angepasst. Eine Möglichkeit, um zu verhindern, dass sich der Zahnersatz sichtbar von den eigenen Zähnen unterscheidet, sind Zahnkronen aus Keramik. Diese werden an die eigene Zahnfarbe angepasst und sind somit nicht von den anderen Zähnen zu unterscheiden. Die Zahnarztkosten für Zahnimplantate steigen tendenziell, während die gesetzlichen Krankenkassen nur einen Festzuschuss basierend auf der Regelversorgung übernehmen, was oft nicht ausreicht, um die hohen Gesamtkosten zu decken. Wir unterstützen Sie bei der Finanzierung des Zahnersatzes mit bis zu 100 % Kostenübernahme inkl. GKV-Vorleistung.Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein15\n\n# Implantat (mit Krone)\n\nRechnung: bis zu\n\n## 4.000 €\n\nAbzug Kassenleistung: • 530 € Ihr Selbstkostenanteil ohne Zahnzusatzversicherung:\n\n# bis zu 3.470 €\n\nIhr Anteil20:\n\n# 0 €\n\n# Knochenaufbau (Sinuslift)\n\nRechnung: bis zu\n\n## 1.400 €\n\nAbzug Kassenleistung:\n\n## 0 €\n\n• Ihr Selbstkostenanteil ohne Zahnzusatzversicherung:\n\n# bis zu 1.400 €\n\nIhr Anteil20: 0 €11 Trotz fehlender Kassenleistung kein Abzug, da es als ein Behandlungsfall zu sehen ist.\n\n# Kosten bei Veneers \u0026 Verblendschalen\n\nBei Veneers erhalten Sie keine Leistungen der Kassen und müssen selbst für die hohe Rechnung aufkommen. Unsere Zahnzusatzversicherung übernimmt beiZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein16 nachgewiesener medizinischer Notwendigkeit jedoch bis zu 100 % inkl. GKV- Vorleistung für keramische Verblendungen. Leistet die Kasse nicht vor, gelten pauschal 35% als Vorleistung. Somit steht einem schönen Lächeln nichts mehr im Weg.\n\n# Veneers\n\nRechnung: bis zu\n\n# 1.200 €\n\nTariflicher Abzug bei fehlender Kassenleistung:\n\n# 420 €\n\nIhr Selbstkostenanteil ohne Zahnzusatzversicherung:\n\n# bis zu 1.200 €\n\nIhr Anteil20: 420 €12\n\n[6] Zahnzusatzversicherung\n# Leistungen der Zahnzusatzversicherung im Überblick\n\nDie eigene Zahngesundheit ist wichtiger Bestandteil des persönlichen Wohlbefindens. Doch das tägliche Zähneputzen allein reicht für gesunde Zähne nicht aus. Eine regelmäßige Zahnprophylaxe ist die perfekte Ergänzung zu den eigenen Bestrebungen, um das Risiko von Zahnschäden zu minimieren. Sollten die eigenen Zähne trotz der richtigen Mundhygiene und Kontrollmaßnahmen dennoch Schwierigkeiten bereiten, ist es wichtig abgesichert zu sein, um unerwartete Ausgaben zu verhindern. Unsere Zahnzusatzversicherung bietet Ihnen die beste Kombination aus Zahnvorsorge und Behandlungsmaßnahmen sowie kieferorthopädische Leistungen und Bleaching20. Wir erklären Ihnen, welche potenziellen Zahnarztkosten auf Sie zukommen können und wie wir Sie mit unserem Tarif ZahnGesund 100 finanziell dabei unterstützen:\n\n[7] Zahnzusatzversicherung\n# Zahnzusatzversicherung: Testsieger \"SEHR GUT\" Münchener Verein\n\n## Zahnzusatzversicherung\n\n### Testsieger bei Stiftung Warentest\n\n• Bis zu 100 % Kostenerstattung • Für Zahnersatz, Zahnerhalt, Zahnprophylaxe und Kieferorthopädie • Sofortschutz ohne Wartezeit • Inkl. Innovationsgarantie Trustpilot Bewertung von 4,3 von 5\n\n## Warum ist eine private Zahnzusatzversicherung wichtig?\n\nGesetzliche Krankenkassen decken oft nur Basisleistungen ab und übernehmen nur einen Teil der tatsächlichen Kosten für Zahnersatz, kieferorthopädische Behandlungen und Zahnfüllungen. Die gesetzliche Krankenkasse bezahlt nur Standardleistungen und erstattet z.B. Zusatzkosten für hochwertigen Zahnersatz, Zahnbehandlungen oder kieferorthopädische Behandlungen nicht. Um hohe Zahnarztkosten zu mindern und sich Top-Behandlungen zu sichern, ist eine passende Zahnzusatzversicherung empfehlenswert. Unsere Zahnzusatzversicherung reduziert die finanzielle Belastung bei hohen Zahnarztkosten und gibt Ihnen die Möglichkeit, Ihre Zahngesundheit zu bewahren und zu fördern. • Umfassende Kostendeckung: Wir übernehmen Ihren Eigenanteil und erstatten Ihnen bis zu 100 % der Kosten für Zahnersatz, Zahnbehandlungen, Zahnprophylaxe und Kieferorthopädie! • Premium Behandlungsqualität: Genießen Sie die Versorgung durch modernste Behandlungen und hochwertige Materialien.Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein1 • Zahnpflege: Übernahme der Kosten für Prophylaxemaßnahmen zur langfristigen Erhaltung Ihrer Zahngesundheit. • • Strahlendes Lächeln inklusive: Wir übernehmen alle zwei Jahre die Kosten für Ihr Bleaching - max. bis 200 €! Erweiterter Leistungsbereich: Profitieren Sie von modernsten Behandlungen und innovativen Technologien.\n\n\n# Conversation\ncustomer: Hallo, ich würde gerne mehr über Zahnzusatzversicherungen Erfahren\nassistant: Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**\ncustomer: Nein\nassistant: Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?\ncustomer: Ich habe noch alle meine Zähne\nassistant: Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt.\ncustomer: Unterschiede bei Zahnersatz ZahnGesund 75+, ZahnGesund 85+, ZahnGesund 100\n\n# Response\n",
+                      "modelOutput": "Der Tarif ZahnGesund 75+ erstattet bis zu 80 % der Kosten für Zahnersatz, ZahnGesund 85+ bis zu 90 % und ZahnGesund 100 bis zu 100 % [1, 3].",
+                      "model": "Other"
+                    },
+                    "answer": "Der Tarif ZahnGesund 75+ erstattet bis zu 80 % der Kosten für Zahnersatz, ZahnGesund 85+ bis zu 90 % und ZahnGesund 100 bis zu 100 %.",
+                    "answerParts": [ {
+                      "text": "Der Tarif ZahnGesund 75+ erstattet bis zu 80 % der Kosten für Zahnersatz, ZahnGesund 85+ bis zu 90 % und ZahnGesund 100 bis zu 100 %.",
+                      "supportingIndices": [ 0 ]
+                    } ],
+                    "citedSnippets": [ {
+                      "searchSnippet": {
+                        "documentTitle": "Zahnzusatzversicherung",
+                        "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                        "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                        "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c2"
+                      }
+                    } ],
+                    "groundingSignals": {
+                      "decision": "ACCEPTED_BY_GROUNDING",
+                      "score": "VERY_HIGH"
+                    },
+                    "safetySignals": {
+                      "decision": "ACCEPTED_BY_SAFETY_CHECK"
+                    },
+                    "answerTypeDegradationReason": "NONE"
+                  }
+                }
+              },
+              "subExecutionSteps": [ {
+                "name": "Responsible AI (with original query)",
+                "startTime": {
+                  "seconds": 1195204,
+                  "nanos": 135000000
+                },
+                "completeTime": {
+                  "seconds": 1195204,
+                  "nanos": 188000000
+                }
+              }, {
+                "name": "Query rewrite",
+                "startTime": {
+                  "seconds": 1195204,
+                  "nanos": 137000000
+                },
+                "completeTime": {
+                  "seconds": 1195204,
+                  "nanos": 490000000
+                }
+              }, {
+                "name": "Call Search with original query [unstructured documents]",
+                "startTime": {
+                  "seconds": 1195204,
+                  "nanos": 135000000
+                },
+                "completeTime": {
+                  "seconds": 1195205,
+                  "nanos": 387000000
+                }
+              }, {
+                "name": "Call Search with rewritten query [unstructured documents]",
+                "startTime": {
+                  "seconds": 1195204,
+                  "nanos": 491000000
+                },
+                "completeTime": {
+                  "seconds": 1195205,
+                  "nanos": 758000000
+                }
+              }, {
+                "name": "Convert UCS results for rewritten query",
+                "startTime": {
+                  "seconds": 1195204,
+                  "nanos": 491000000
+                },
+                "completeTime": {
+                  "seconds": 1195205,
+                  "nanos": 759000000
+                }
+              }, {
+                "name": "Convert UCS results for original query",
+                "startTime": {
+                  "seconds": 1195204,
+                  "nanos": 135000000
+                },
+                "completeTime": {
+                  "seconds": 1195205,
+                  "nanos": 399000000
+                }
+              }, {
+                "name": "ReAct turn",
+                "startTime": {
+                  "seconds": 1195205,
+                  "nanos": 763000000
+                },
+                "completeTime": {
+                  "seconds": 1195206,
+                  "nanos": 606000000
+                }
+              }, {
+                "name": "Responsible AI (with result before grounding)",
+                "startTime": {
+                  "seconds": 1195206,
+                  "nanos": 609000000
+                },
+                "completeTime": {
+                  "seconds": 1195206,
+                  "nanos": 653000000
+                }
+              }, {
+                "name": "Responsible AI (with original query and result)",
+                "startTime": {
+                  "seconds": 1195206,
+                  "nanos": 609000000
+                },
+                "completeTime": {
+                  "seconds": 1195206,
+                  "nanos": 658000000
+                }
+              }, {
+                "name": "Grounding",
+                "startTime": {
+                  "seconds": 1195206,
+                  "nanos": 609000000
+                },
+                "completeTime": {
+                  "seconds": 1195206,
+                  "nanos": 701000000
+                }
+              } ]
+            }, {
+              "agentUtterance": {
+                "text": "Wenn Sie Wert auf Zahnersatz legen, bieten unsere Tarife hier unterschiedliche Erstattungsgrade:\n\n*   **ZahnGesund 75+** erstattet bis zu 80 % der Kosten.\n*   **ZahnGesund 85+** erstattet bis zu 90 % der Kosten.\n*   **ZahnGesund 100** erstattet bis zu 100 % der Kosten.\n\nWelcher Tarif für Sie am besten geeignet ist, hängt auch davon ab, wie viel Ihnen ein möglichst hoher Erstattungsanteil wert ist."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Welche Leistungen sind in 85+ enthalten?"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Im Tarif ZahnGesund 85+ sind umfangreiche Leistungen enthalten:\n\n*   **Zahnbehandlung** und **Wurzel- und Parodontose-Behandlung** werden zu 100% bzw. bis zu 100% erstattet.\n*   Für **Zahnersatz** erhalten Sie bis zu 90% Erstattung.\n*   Die **Zahnprophylaxe** wird mit bis zu 170 € pro Jahr bezuschusst.\n*   **Kieferorthopädie** für Kinder und Erwachsene (bei Unfall) ist bis zu 85% abgedeckt.\n*   Leistungen zur **Schmerzlinderung** (Akupunktur, Narkose, etc.) bis zu 150 €.\n*   Es gibt eine **Leistungsstaffel** in den ersten vier Jahren, die von 1.000 € im ersten Jahr auf 4.000 € im vierten Jahr ansteigt. Ab dem fünften Jahr sind die Leistungen unbegrenzt.\n*   Zusätzlich profitieren Sie von einer **Mindestleistung Zahnersatz** von 80%, einem **Bonusheft-Upgrade**, **keiner Wartezeit**, **Unfallsofortschutz** und der Möglichkeit, **Rechnungen mobil einzureichen**." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Welche Leistungen sind in 85+ enthalten?"
+              }
+            }, {
+              "toolUse": {
+                "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/6b9b1d19-3c8e-4afb-a7d2-cee50597d7e7",
+                "action": "get_zz_info",
+                "inputActionParameters": {
+                  "requestBody": {
+                    "query": "Welche Leistungen sind in ZahnGesund 85+ enthalten?"
+                  }
+                },
+                "outputActionParameters": {
+                  "200": {
+                    "answer": "Im Tarif ZahnGesund 85+ sind folgende Leistungen enthalten:\n*   Zahnbehandlung: 100%\n*   Wurzel- und Parodontose-Behandlung: bis zu 100%\n*   Zahnersatz: bis zu 90%\n*   Zahnprophylaxe: bis zu 170 € pro Jahr\n*   Kieferorthopädie für Kinder (bis 18 J.): bis zu 85% (bei Unfall max. 2.500 €)\n*   Kieferorthopädie für Erwachsene (ab 19 J.): bis zu 85% (bei Unfall max. 2.500 €)\n*   Schmerzlinderung (Akupunktur, Narkose, etc.): bis zu 150 €\n*   Leistungsstaffel im 1. Versicherungsjahr: 1.000 €\n*   Leistungsstaffel im 2. Versicherungsjahr: 2.000 €\n*   Leistungsstaffel im 3. Versicherungsjahr: 3.000 €\n*   Leistungsstaffel im 4. Versicherungsjahr: 4.000 €\n*   Ab dem 5. Jahr: unbegrenzt\n*   Mindestleistung Zahnersatz: mind. 80%\n*   Bonusheft-Upgrade: Ja\n*   Keine Wartezeit: Ja\n*   Unfallsofortschutz: Ja\n*   Rechnungen mobil einreichen: Ja",
+                    "snippets": [ {
+                      "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                      "title": "Zahnzusatzversicherung",
+                      "uri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf#page=2"
+                    } ]
+                  }
+                },
+                "dataStoreToolTrace": {
+                  "dataStoreConnectionSignals": {
+                    "rewriterModelCallSignals": {
+                      "renderedPrompt": "You observe conversations between a human and an AI assistant working at .\nYour goal is to perform a search query to help the AI assistant respond to the human's last statement.\n* Always output the best search query you can, even if you suspect it's not needed.\n* Never generate a query that is the same as the user's last statement.\n* Include as much context as necessary from the conversation history.\n* Output a concise search query, and nothing else.\n* Don't use quotes or search operators.\n* The query must be in German.\n\nConversation History:\nHuman: Nein\nAI: Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?\nHuman: Ich habe noch alle meine Zähne\nAI: Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt.\nHuman: Ich brauche vor allem Zahnersatz\nAI: Wenn Sie Wert auf Zahnersatz legen, bieten unsere Tarife hier unterschiedliche Erstattungsgrade:\n\n*   **ZahnGesund 75+** erstattet bis zu 80 % der Kosten.\n*   **ZahnGesund 85+** erstattet bis zu 90 % der Kosten.\n*   **ZahnGesund 100** erstattet bis zu 100 % der Kosten.\n\nWelcher Tarif für Sie am besten geeignet ist, hängt auch davon ab, wie viel Ihnen ein möglichst hoher Erstattungsanteil wert ist.\nHuman: Welche Leistungen sind in ZahnGesund 85+ enthalten?\nSearch Query: ",
+                      "modelOutput": "ZahnGesund 85+ Leistungen",
+                      "model": "gemini-2.5-flash"
+                    },
+                    "rewrittenQuery": "ZahnGesund 85+ Leistungen",
+                    "searchSnippets": [ {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c2"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Kieferorthopädie für |  |  |  |\n| Erwachsene ab 19 Jahre \u003cbr\u003e |  |  |  |\n| Info: ZahnGesund 75+: Bei Unfall 75% max. 1.000 €. ZahnGesund |  |  |  |\n|  |  |  |  |\n| 85+: Bei Unfall 85 % max. 2.500 €. ZahnGesund 100: 100% max. 2.500 €. Μaximale | bis 75% | bis 85% | bis 100% |\n| Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |\n|  |  |  |  |\n| Zahn-Bleaching \u003cbr\u003e Info: Kosten für Zahnbleaching werden alle 2 Versicherungsjahre | Nein | Nein | bis 200 € |\n| übernommen, wenn es von einem Zahnarzt durchgeführt oder angeleitet wird. |  |  |  |\n|  |  |  |  |\n| Akupunktur, Narkose, etc. zur Schmerzlinderung \u003cbr\u003e Info: Geleistet wird für schmerzlindernde Maßnahmen während der Behandlung, u.a. auch für Lachgas und Hypnose. | bis 75 € | bis 150 € | bis 300 € |\n| Leistungsstaffel |  |  |  |\n| 1. Versicherungsjahr | 900 € | 1.000 € | 1.500 € |\n| 2. Versicherungsjahr | 1.800 € | 2.000 € | 3.000 € |\n| 3. Versicherungsjahr | 2.700 € | 3.000 € | 4.500 € |\n| 4. Versicherungsjahr | 3.600 € | 4.000 € | 6.000 € |\n| ab dem 5. Versicherungsjahr | unbegrenzt | unbegrenzt | unbegrenzt |\n| Anrechnung der Vorversicherung für Wechsler |  |  |  |\n| Vorversicherungszeit | mind. 12 Monate | mind. 12 Monate | mind. 12 Monate |\n| Unterjährige Vertragswechsel | zählt als volles Jahr | zählt als volles Jahr | zählt als volles Jahr |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein10\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Mindestleistung Zahnersatz | mind. 70% | mind. 80% | mind. 90% |\n| Weitere Vorteile |  |  |  |\n| Bonusheft-Upgrade \u003cbr\u003e Info: Bei 10 Jahre lückenlos geführtem Bonusheft erhalten Sie 5 % Leistungs-Upgrade für Zahnersatz in den Tarifen | Ja | Ja | Ja |\n| ZahnGesund 75+ und 85+. |  |  |  |\n| Keine Wartezeit | Ja | Ja | Ja |\n| Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen  Tarif und Bedingungen Ihr Monatsbeitrag | Ja Ja GUT (1,8) bei Stiftung Warentest 07/2025 ZahnGesund 75+ (pdf). Online | Ja Ja SEHR GUT (1,3) bei Stiftung Warentest 07/2025 ZahnGesund 85+ (pdf). Online | Ja Ja SEHR GUT ( bei Stiftung Warentest 07/2025 ZahnGesund (pdf). Online ייייייייי   0,5)    100 |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  | abschließen | abschließen | abschließen |\n\n_END_OF_TABLE_\n",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c7"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "## Zahnzusatzversicherung: beste Tarife¹ für Ihre Zahngesundheit\n\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein8\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund (Testsieger) | 100 |\n|-|-|-|-|-|\n| Zahnbehandlung (z. B. hochwertige Füllungen) | 100% | 100% | 100% |  |\n| Wurzel- und Parodontose- Behandlung \u003cbr\u003e Info: Wurzel- und Parodontose-Behandlung werden in den Tarifen 577 und 578 ohne GKV-Vorleistung zu 75 % bzw. 85% erstattet. |  |  |  |  |\n|  | bis 100% | bis 100% | 100% |  |\n|  |  |  |  |  |\n| Zahnersatz \u003cbr\u003e Info: |  |  |  |  |\n| ZahnGesund 75+: 75% |  |  |  |  |\n| Erstattung inkl. GKV + 5 % |  |  |  |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 85+:85 % Erstattung inkl. GKV + 5% | bis 80% | bis 90% | bis 100% |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 100: 100 |  |  |  |  |\n| % Erstattung inkl. GKV- |  |  |  |  |\n| Vorleistung. |  |  |  |  |\n| Zahnprophylaxe \u003cbr\u003e Info: ZahnGesund 75+: 2 × 75 € pro |  |  |  |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 85+: 2 × 85 € pro | bis 150 € | bis 170 € | bis 200 € |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 100: 2 × 100 € pro Versicherungsjahr. |  |  |  |  |\n| Kieferorthopädie für Kinder bis |  |  |  |  |\n| 18 Jahre \u003cbr\u003e Info: Leistung für |  |  |  |  |\n| KIG 1-5. ZahnGesund 75+: Bei |  |  |  |  |\n| Unfall, 75 % max. 1.000 €. |  |  |  |  |\n| ZahnGesund 85+: Bei Unfall, 85 % max. 2.500 €. ZahnGesund 100: 100% max. 5.000 €. | bis 75% | bis 85% | bis 100% |  |\n| Maximale Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |  |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein9",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c6"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "## Zahnzusatzversicherung – Ihre Vorteile beim Münchener Verein\n\n• Maximale Kostenerstattung von bis zu 100 % für Zahnbehandlungen, Zahnimplantate, Zahnprophylaxe, Zahnersatz, Kieferorthopädie und mehr. • Keine Wartezeiten: Genießen Sie mit unserem sofortigen Versicherungsschutz Leistungen ab dem ersten Tag. • Günstiger Schutz: Bereits ab 7,90 € für junge Erwachsene. • Ein fehlender Zahn ist mitversichert, sofern die Behandlung noch nicht angeraten oder begonnen wurde. • Moderne Trendleistungen, wie Laserbehandlung und Invisalign-Therapie sind eingeschlossen. • Wechsel-Garantie: Die Laufzeit Ihrer bisherigen Zahnversicherung wird kostenfrei angerechnet.Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein3 • Innovationsgarantie: Künftig neu hinzukommende Behandlungsmethoden sind automatisch mitversichert. • Maßnahmen zur Schmerzlinderung, wie z. B. Akupunktur, Hypnose oder Vollnarkose erstatten wir Ihnen im tariflichen Rahmen. • 15 € Gutschein: Erhalten Sie einen Gutschein beim Abschluss einer Zahnzusatzversicherung. • 24h Gesundheitshotline: Lassen Sie sich rund um die Uhr von medizinischen Fachleuten beraten. • Zahnmedizinische Zweitmeinung: Holen Sie sich professionellen Rat und lassen Sie sich bei Bedarf bequem einen Termin von unserem Partner vermitteln. • Schnell \u0026 digital mit der MV ServiceApp: Rechnungen, Rezepte und Pläne sicher online einreichen.\n\n## Ausgezeichneter Versicherungsschutz\n\nUnsere Zahnzusatzversicherung ZahnGesund 100 wurde erneut als Testsieger mit Bestnote \"SEHR GUT (0,5)\" in einem Vergleich mit 285 Zahnzusatzversicherungen von Stiftung Warentest (07/2025) ausgezeichnet.\n\n## Zahnzusatzversicherung: was ist versichert?\n\n### Das ist versichert:\n\n• • • Zahnbehandlung (z.B. hochwertige Füllungen) Bleaching Kieferorthopädie für Kinder und Erwachsene (z.B. Zahnspange, Invisalign und Retainer) • Wurzel- und Parodontose-Behandlung • Zahnersatz (z.B. Kronen, Brücken, Implantate und Prothesen) • Zahnprophylaxe und professionelle Zahnreinigung • Schmerzlinderungsmaßnahmen (z.B. Akupunktur und Narkose)Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein4 • Ein fehlender Zahn ist mitversichert, sofern die Behandlung noch nicht angeraten oder begonnen wurde.\n\n### Das ist nicht versichert:\n\n• Für alle darüber hinaus fehlenden und nicht dauerhaft ersetzten Zähne besteht kein Leistungsanspruch • Für Zahnersatzmaßnahmen bzw. Zahnbehandlungsmaßnahmen und kieferorthopädische Behandlungen, die vor Versicherungsbeginn angeraten oder begonnen worden sind, wird nicht geleistet.",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c3"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "# Leistungen der Zahnzusatzversicherung im Überblick\n\nDie eigene Zahngesundheit ist wichtiger Bestandteil des persönlichen Wohlbefindens. Doch das tägliche Zähneputzen allein reicht für gesunde Zähne nicht aus. Eine regelmäßige Zahnprophylaxe ist die perfekte Ergänzung zu den eigenen Bestrebungen, um das Risiko von Zahnschäden zu minimieren. Sollten die eigenen Zähne trotz der richtigen Mundhygiene und Kontrollmaßnahmen dennoch Schwierigkeiten bereiten, ist es wichtig abgesichert zu sein, um unerwartete Ausgaben zu verhindern. Unsere Zahnzusatzversicherung bietet Ihnen die beste Kombination aus Zahnvorsorge und Behandlungsmaßnahmen sowie kieferorthopädische Leistungen und Bleaching20. Wir erklären Ihnen, welche potenziellen Zahnarztkosten auf Sie zukommen können und wie wir Sie mit unserem Tarif ZahnGesund 100 finanziell dabei unterstützen:",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c9"
+                    }, {
+                      "documentTitle": "Zahnzusatzversicherung",
+                      "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                      "text": "# Häufige Fragen und Antworten\n\nIst die vorherige Einreichung eines Heil- und Kostenplans notwendig? Nein, Sie müssen uns keinen Heil- und Kostenplan einreichen. Bei einer bevorstehenden Zahnersatzmaßnahme oder kieferorthopädischen Behandlung rät der Versicherer zur vorherigen Erstellung eines Heil- und Kostenplans durch den Zahnarzt. Der Zahnversicherer gibt Ihnen nach Einreichung des Heil- und Kostenplans Auskunft über die zu erwartende Versicherungsleistung. Wie oft zahlt die Zusatzversicherung eine Zahnreinigung? Bis zu 200 € pro Jahr für professionelle Zahnreinigung- und Prophylaxe-Behandlungen. Eine professionelle Zahnreinigung kostet in der Regel 70 bis 100 € und sollte zweimal jährlich durchgeführt werden. Sie erhalten\n\n## bis zu 200 € pro Jahr für professionelle Zahnreinigung- und Prophylaxe- Behandlungen – je nach gewählter Tarifvariante.\n\nWas sind Leistungsbegrenzungen bei einer Zahnzusatzversicherung bzw. was sind Zahnstaffeln? Als Leistungsbegrenzungen bzw. Zahnstaffeln bezeichnet man die maximalen Erstattungsbeträge in den ersten Versicherungsjahren. Von Leistungsbegrenzungen oder Zahnstaffeln spricht man dann, wenn die Erstattungen in den ersten Versicherungsjahren auf einen Höchstbetrag begrenztZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein23 sind. Gäbe es diese Leistungsbeschränkungen in den ersten Vertragsjahren nicht, dann könnten Versicherte direkt nach Vertragsschluss umfangreiche Zahnbehandlungen oder Gebisssanierungen vornehmen lassen, die mit hohen Kosten verbunden wären. Diese Kosten müssten dann bereits bei der Beitragskalkulation mit einfließen, dazu sind die Versicherer verpflichtet. Der Versicherungsbeitrag wäre also deutlich teurer – und das für alle, die eine Zahnzusatzversicherung abschließen möchten. Unter dem Strich würden dann alle Versicherten diejenigen mitfinanzieren, die ohne Vorversicherungszeit sofort hohe Leistungen in Anspruch nehmen. Unsere neuen ZahnGesund-Tarife haben jedoch ein besonderes Feature: wir rechnen Ihnen bei einem Wechsel Ihre Vorversicherungszeit an, die Sie in einer anderen Zahnzusatzversicherung erworben haben, wenn die Voraussetzungen dafür erfüllt sind. Für Neueinsteiger lohnt es sich, frühzeitig eine Zahnzusatzversicherung abzuschließen. So können Sie sichergehen, dass bei den ersten größeren Zahnersatzbehandlungen die Höchstbegrenzungen entfallen sind. Was ist bei der Zahnzusatzversicherung nicht versichert? Bei uns nicht versichert sind bereits angeratene oder begonnene Behandlungen. Im Rahmen unserer Zahnzusatzversicherung wird für Zahnersatzmaßnahmen bzw. Zahnbehandlungsmaßnahmen und kieferorthopädische Behandlungen, die vor Versicherungsbeginn angeraten oder begonnen worden sind, nicht geleistet. Bei allen nach Abschluss des Versicherungsvertrages eingetretenen Versicherungsfällen wird für den Teil geleistet, der in die Zeit ab Versicherungsbeginn fällt. Ein fehlender, noch nicht dauerhaft ersetzter Zahn ist mitversichert, sofern die Behandlung noch nicht angeraten oder begonnen wurde. Für alle darüber hinaus fehlenden und nicht dauerhaft ersetzten Zähne besteht kein Leistungsanspruch. Zahnzusatzversicherung ist steuerlich absetzbar.",
+                      "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c15"
+                    } ],
+                    "answerGenerationModelCallSignals": {
+                      "renderedPrompt": "Given the conversation between a customer and a helpful assistant and a list of sources, write a final relevant answer for the assistant.\nIf the last question from the customer is related to the previous conversation, take the conversation history into account, otherwise just respond to the last question.\n# Follow these guidelines:\n* The response must be directly supported by the provided sources and every statement must be followed by an inline citation. Use the format [i] for single sources and [i, j] for multiple sources. i, j must be the exact digits used in the Sources section (same alphabet)\n* Never refer to the given sources. Avoid all phrases like `according to the sources` or `provided text` or `mentioned in the sources` in the response.\n* Respond using the exact numerical values provided in the prompt. Do not change the format of any numbers, even if they are spelled out or contain unusual formatting\n* Be concise (fit under 200 characters), but answer the customer question first and foremost\n* Use markdown lists to organize key points, advantages, and disadvantages if it helps readability. Use bullet points (`-`) for individual items and numbered lists (`1.`, `2.`) for sequential steps or points\n* Avoid bolding (**)\n* If the customer's question is a single term or topic that is covered in the sources, respond with a very short summary about the topic\n* The answer MUST be in German.\n\n# Instructions for Answering\n* You MUST attempt to answer the user's query using the provided sources. Your goal is to extract and synthesize any and all available information to construct an answer.\n* If the information is not definitive, provide the most likely answer based on the available evidence and qualify your answer with phrases like: \"It appears that...\"\n* If the sources only provide partial information, answer what you can and explicitly state what could not be determined from the sources.\n* You may ONLY, as an absolute last resort, respond with `NICHT_GENUG_INFORMATION` if and only if the provided sources are 100% irrelevant to the query and literally none of the information can be used to form any coherent or even speculative answer to any part of the question.\n\n# Sources\n[1] Zahnzusatzversicherung\n## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n\n[2] Zahnzusatzversicherung\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Kieferorthopädie für |  |  |  |\n| Erwachsene ab 19 Jahre \u003cbr\u003e |  |  |  |\n| Info: ZahnGesund 75+: Bei Unfall 75% max. 1.000 €. ZahnGesund |  |  |  |\n|  |  |  |  |\n| 85+: Bei Unfall 85 % max. 2.500 €. ZahnGesund 100: 100% max. 2.500 €. Μaximale | bis 75% | bis 85% | bis 100% |\n| Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |\n|  |  |  |  |\n| Zahn-Bleaching \u003cbr\u003e Info: Kosten für Zahnbleaching werden alle 2 Versicherungsjahre | Nein | Nein | bis 200 € |\n| übernommen, wenn es von einem Zahnarzt durchgeführt oder angeleitet wird. |  |  |  |\n|  |  |  |  |\n| Akupunktur, Narkose, etc. zur Schmerzlinderung \u003cbr\u003e Info: Geleistet wird für schmerzlindernde Maßnahmen während der Behandlung, u.a. auch für Lachgas und Hypnose. | bis 75 € | bis 150 € | bis 300 € |\n| Leistungsstaffel |  |  |  |\n| 1. Versicherungsjahr | 900 € | 1.000 € | 1.500 € |\n| 2. Versicherungsjahr | 1.800 € | 2.000 € | 3.000 € |\n| 3. Versicherungsjahr | 2.700 € | 3.000 € | 4.500 € |\n| 4. Versicherungsjahr | 3.600 € | 4.000 € | 6.000 € |\n| ab dem 5. Versicherungsjahr | unbegrenzt | unbegrenzt | unbegrenzt |\n| Anrechnung der Vorversicherung für Wechsler |  |  |  |\n| Vorversicherungszeit | mind. 12 Monate | mind. 12 Monate | mind. 12 Monate |\n| Unterjährige Vertragswechsel | zählt als volles Jahr | zählt als volles Jahr | zählt als volles Jahr |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein10\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 (Testsieger) |\n|-|-|-|-|\n| Mindestleistung Zahnersatz | mind. 70% | mind. 80% | mind. 90% |\n| Weitere Vorteile |  |  |  |\n| Bonusheft-Upgrade \u003cbr\u003e Info: Bei 10 Jahre lückenlos geführtem Bonusheft erhalten Sie 5 % Leistungs-Upgrade für Zahnersatz in den Tarifen | Ja | Ja | Ja |\n| ZahnGesund 75+ und 85+. |  |  |  |\n| Keine Wartezeit | Ja | Ja | Ja |\n| Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen  Tarif und Bedingungen Ihr Monatsbeitrag | Ja Ja GUT (1,8) bei Stiftung Warentest 07/2025 ZahnGesund 75+ (pdf). Online | Ja Ja SEHR GUT (1,3) bei Stiftung Warentest 07/2025 ZahnGesund 85+ (pdf). Online | Ja Ja SEHR GUT ( bei Stiftung Warentest 07/2025 ZahnGesund (pdf). Online ייייייייי   0,5)    100 |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  |  |  |  |\n|  | abschließen | abschließen | abschließen |\n\n_END_OF_TABLE_\n\n[3] Zahnzusatzversicherung\n## Zahnzusatzversicherung: beste Tarife¹ für Ihre Zahngesundheit\n\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein8\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund (Testsieger) | 100 |\n|-|-|-|-|-|\n| Zahnbehandlung (z. B. hochwertige Füllungen) | 100% | 100% | 100% |  |\n| Wurzel- und Parodontose- Behandlung \u003cbr\u003e Info: Wurzel- und Parodontose-Behandlung werden in den Tarifen 577 und 578 ohne GKV-Vorleistung zu 75 % bzw. 85% erstattet. |  |  |  |  |\n|  | bis 100% | bis 100% | 100% |  |\n|  |  |  |  |  |\n| Zahnersatz \u003cbr\u003e Info: |  |  |  |  |\n| ZahnGesund 75+: 75% |  |  |  |  |\n| Erstattung inkl. GKV + 5 % |  |  |  |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 85+:85 % Erstattung inkl. GKV + 5% | bis 80% | bis 90% | bis 100% |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 100: 100 |  |  |  |  |\n| % Erstattung inkl. GKV- |  |  |  |  |\n| Vorleistung. |  |  |  |  |\n| Zahnprophylaxe \u003cbr\u003e Info: ZahnGesund 75+: 2 × 75 € pro |  |  |  |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 85+: 2 × 85 € pro | bis 150 € | bis 170 € | bis 200 € |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 100: 2 × 100 € pro Versicherungsjahr. |  |  |  |  |\n| Kieferorthopädie für Kinder bis |  |  |  |  |\n| 18 Jahre \u003cbr\u003e Info: Leistung für |  |  |  |  |\n| KIG 1-5. ZahnGesund 75+: Bei |  |  |  |  |\n| Unfall, 75 % max. 1.000 €. |  |  |  |  |\n| ZahnGesund 85+: Bei Unfall, 85 % max. 2.500 €. ZahnGesund 100: 100% max. 5.000 €. | bis 75% | bis 85% | bis 100% |  |\n| Maximale Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |  |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein9\n\n[4] Zahnzusatzversicherung\n## Zahnzusatzversicherung – Ihre Vorteile beim Münchener Verein\n\n• Maximale Kostenerstattung von bis zu 100 % für Zahnbehandlungen, Zahnimplantate, Zahnprophylaxe, Zahnersatz, Kieferorthopädie und mehr. • Keine Wartezeiten: Genießen Sie mit unserem sofortigen Versicherungsschutz Leistungen ab dem ersten Tag. • Günstiger Schutz: Bereits ab 7,90 € für junge Erwachsene. • Ein fehlender Zahn ist mitversichert, sofern die Behandlung noch nicht angeraten oder begonnen wurde. • Moderne Trendleistungen, wie Laserbehandlung und Invisalign-Therapie sind eingeschlossen. • Wechsel-Garantie: Die Laufzeit Ihrer bisherigen Zahnversicherung wird kostenfrei angerechnet.Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein3 • Innovationsgarantie: Künftig neu hinzukommende Behandlungsmethoden sind automatisch mitversichert. • Maßnahmen zur Schmerzlinderung, wie z. B. Akupunktur, Hypnose oder Vollnarkose erstatten wir Ihnen im tariflichen Rahmen. • 15 € Gutschein: Erhalten Sie einen Gutschein beim Abschluss einer Zahnzusatzversicherung. • 24h Gesundheitshotline: Lassen Sie sich rund um die Uhr von medizinischen Fachleuten beraten. • Zahnmedizinische Zweitmeinung: Holen Sie sich professionellen Rat und lassen Sie sich bei Bedarf bequem einen Termin von unserem Partner vermitteln. • Schnell \u0026 digital mit der MV ServiceApp: Rechnungen, Rezepte und Pläne sicher online einreichen.\n\n## Ausgezeichneter Versicherungsschutz\n\nUnsere Zahnzusatzversicherung ZahnGesund 100 wurde erneut als Testsieger mit Bestnote \"SEHR GUT (0,5)\" in einem Vergleich mit 285 Zahnzusatzversicherungen von Stiftung Warentest (07/2025) ausgezeichnet.\n\n## Zahnzusatzversicherung: was ist versichert?\n\n### Das ist versichert:\n\n• • • Zahnbehandlung (z.B. hochwertige Füllungen) Bleaching Kieferorthopädie für Kinder und Erwachsene (z.B. Zahnspange, Invisalign und Retainer) • Wurzel- und Parodontose-Behandlung • Zahnersatz (z.B. Kronen, Brücken, Implantate und Prothesen) • Zahnprophylaxe und professionelle Zahnreinigung • Schmerzlinderungsmaßnahmen (z.B. Akupunktur und Narkose)Zahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein4 • Ein fehlender Zahn ist mitversichert, sofern die Behandlung noch nicht angeraten oder begonnen wurde.\n\n### Das ist nicht versichert:\n\n• Für alle darüber hinaus fehlenden und nicht dauerhaft ersetzten Zähne besteht kein Leistungsanspruch • Für Zahnersatzmaßnahmen bzw. Zahnbehandlungsmaßnahmen und kieferorthopädische Behandlungen, die vor Versicherungsbeginn angeraten oder begonnen worden sind, wird nicht geleistet.\n\n[5] Zahnzusatzversicherung\n# Leistungen der Zahnzusatzversicherung im Überblick\n\nDie eigene Zahngesundheit ist wichtiger Bestandteil des persönlichen Wohlbefindens. Doch das tägliche Zähneputzen allein reicht für gesunde Zähne nicht aus. Eine regelmäßige Zahnprophylaxe ist die perfekte Ergänzung zu den eigenen Bestrebungen, um das Risiko von Zahnschäden zu minimieren. Sollten die eigenen Zähne trotz der richtigen Mundhygiene und Kontrollmaßnahmen dennoch Schwierigkeiten bereiten, ist es wichtig abgesichert zu sein, um unerwartete Ausgaben zu verhindern. Unsere Zahnzusatzversicherung bietet Ihnen die beste Kombination aus Zahnvorsorge und Behandlungsmaßnahmen sowie kieferorthopädische Leistungen und Bleaching20. Wir erklären Ihnen, welche potenziellen Zahnarztkosten auf Sie zukommen können und wie wir Sie mit unserem Tarif ZahnGesund 100 finanziell dabei unterstützen:\n\n[6] Zahnzusatzversicherung\n# Häufige Fragen und Antworten\n\nIst die vorherige Einreichung eines Heil- und Kostenplans notwendig? Nein, Sie müssen uns keinen Heil- und Kostenplan einreichen. Bei einer bevorstehenden Zahnersatzmaßnahme oder kieferorthopädischen Behandlung rät der Versicherer zur vorherigen Erstellung eines Heil- und Kostenplans durch den Zahnarzt. Der Zahnversicherer gibt Ihnen nach Einreichung des Heil- und Kostenplans Auskunft über die zu erwartende Versicherungsleistung. Wie oft zahlt die Zusatzversicherung eine Zahnreinigung? Bis zu 200 € pro Jahr für professionelle Zahnreinigung- und Prophylaxe-Behandlungen. Eine professionelle Zahnreinigung kostet in der Regel 70 bis 100 € und sollte zweimal jährlich durchgeführt werden. Sie erhalten\n\n## bis zu 200 € pro Jahr für professionelle Zahnreinigung- und Prophylaxe- Behandlungen – je nach gewählter Tarifvariante.\n\nWas sind Leistungsbegrenzungen bei einer Zahnzusatzversicherung bzw. was sind Zahnstaffeln? Als Leistungsbegrenzungen bzw. Zahnstaffeln bezeichnet man die maximalen Erstattungsbeträge in den ersten Versicherungsjahren. Von Leistungsbegrenzungen oder Zahnstaffeln spricht man dann, wenn die Erstattungen in den ersten Versicherungsjahren auf einen Höchstbetrag begrenztZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein23 sind. Gäbe es diese Leistungsbeschränkungen in den ersten Vertragsjahren nicht, dann könnten Versicherte direkt nach Vertragsschluss umfangreiche Zahnbehandlungen oder Gebisssanierungen vornehmen lassen, die mit hohen Kosten verbunden wären. Diese Kosten müssten dann bereits bei der Beitragskalkulation mit einfließen, dazu sind die Versicherer verpflichtet. Der Versicherungsbeitrag wäre also deutlich teurer – und das für alle, die eine Zahnzusatzversicherung abschließen möchten. Unter dem Strich würden dann alle Versicherten diejenigen mitfinanzieren, die ohne Vorversicherungszeit sofort hohe Leistungen in Anspruch nehmen. Unsere neuen ZahnGesund-Tarife haben jedoch ein besonderes Feature: wir rechnen Ihnen bei einem Wechsel Ihre Vorversicherungszeit an, die Sie in einer anderen Zahnzusatzversicherung erworben haben, wenn die Voraussetzungen dafür erfüllt sind. Für Neueinsteiger lohnt es sich, frühzeitig eine Zahnzusatzversicherung abzuschließen. So können Sie sichergehen, dass bei den ersten größeren Zahnersatzbehandlungen die Höchstbegrenzungen entfallen sind. Was ist bei der Zahnzusatzversicherung nicht versichert? Bei uns nicht versichert sind bereits angeratene oder begonnene Behandlungen. Im Rahmen unserer Zahnzusatzversicherung wird für Zahnersatzmaßnahmen bzw. Zahnbehandlungsmaßnahmen und kieferorthopädische Behandlungen, die vor Versicherungsbeginn angeraten oder begonnen worden sind, nicht geleistet. Bei allen nach Abschluss des Versicherungsvertrages eingetretenen Versicherungsfällen wird für den Teil geleistet, der in die Zeit ab Versicherungsbeginn fällt. Ein fehlender, noch nicht dauerhaft ersetzter Zahn ist mitversichert, sofern die Behandlung noch nicht angeraten oder begonnen wurde. Für alle darüber hinaus fehlenden und nicht dauerhaft ersetzten Zähne besteht kein Leistungsanspruch. Zahnzusatzversicherung ist steuerlich absetzbar.\n\n\n# Conversation\ncustomer: Nein\nassistant: Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?\ncustomer: Ich habe noch alle meine Zähne\nassistant: Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt.\ncustomer: Ich brauche vor allem Zahnersatz\nassistant: Wenn Sie Wert auf Zahnersatz legen, bieten unsere Tarife hier unterschiedliche Erstattungsgrade:\n\n*   **ZahnGesund 75+** erstattet bis zu 80 % der Kosten.\n*   **ZahnGesund 85+** erstattet bis zu 90 % der Kosten.\n*   **ZahnGesund 100** erstattet bis zu 100 % der Kosten.\n\nWelcher Tarif für Sie am besten geeignet ist, hängt auch davon ab, wie viel Ihnen ein möglichst hoher Erstattungsanteil wert ist.\ncustomer: Welche Leistungen sind in ZahnGesund 85+ enthalten?\n\n# Response\n",
+                      "modelOutput": "Im Tarif ZahnGesund 85+ sind folgende Leistungen enthalten [1, 2, 3]:\n*   Zahnbehandlung: 100% [1, 3]\n*   Wurzel- und Parodontose-Behandlung: bis zu 100% [1, 3]\n*   Zahnersatz: bis zu 90% [1, 3]\n*   Zahnprophylaxe: bis zu 170 € pro Jahr [1, 3]\n*   Kieferorthopädie für Kinder (bis 18 J.): bis zu 85% (bei Unfall max. 2.500 €) [1, 3]\n*   Kieferorthopädie für Erwachsene (ab 19 J.): bis zu 85% (bei Unfall max. 2.500 €) [1, 2]\n*   Schmerzlinderung (Akupunktur, Narkose, etc.): bis zu 150 € [1, 2]\n*   Leistungsstaffel im 1. Versicherungsjahr: 1.000 € [1, 2]\n*   Leistungsstaffel im 2. Versicherungsjahr: 2.000 € [1, 2]\n*   Leistungsstaffel im 3. Versicherungsjahr: 3.000 € [1, 2]\n*   Leistungsstaffel im 4. Versicherungsjahr: 4.000 € [1, 2]\n*   Ab dem 5. Jahr: unbegrenzt [1, 2]\n*   Mindestleistung Zahnersatz: mind. 80% [1, 2]\n*   Bonusheft-Upgrade: Ja [1, 2]\n*   Keine Wartezeit: Ja [1, 2]\n*   Unfallsofortschutz: Ja [1, 2]\n*   Rechnungen mobil einreichen: Ja [1, 2]",
+                      "model": "Other"
+                    },
+                    "answer": "Im Tarif ZahnGesund 85+ sind folgende Leistungen enthalten:\n*   Zahnbehandlung: 100%\n*   Wurzel- und Parodontose-Behandlung: bis zu 100%\n*   Zahnersatz: bis zu 90%\n*   Zahnprophylaxe: bis zu 170 € pro Jahr\n*   Kieferorthopädie für Kinder (bis 18 J.): bis zu 85% (bei Unfall max. 2.500 €)\n*   Kieferorthopädie für Erwachsene (ab 19 J.): bis zu 85% (bei Unfall max. 2.500 €)\n*   Schmerzlinderung (Akupunktur, Narkose, etc.): bis zu 150 €\n*   Leistungsstaffel im 1. Versicherungsjahr: 1.000 €\n*   Leistungsstaffel im 2. Versicherungsjahr: 2.000 €\n*   Leistungsstaffel im 3. Versicherungsjahr: 3.000 €\n*   Leistungsstaffel im 4. Versicherungsjahr: 4.000 €\n*   Ab dem 5. Jahr: unbegrenzt\n*   Mindestleistung Zahnersatz: mind. 80%\n*   Bonusheft-Upgrade: Ja\n*   Keine Wartezeit: Ja\n*   Unfallsofortschutz: Ja\n*   Rechnungen mobil einreichen: Ja",
+                    "answerParts": [ {
+                      "text": "Im Tarif ZahnGesund 85+ sind folgende Leistungen enthalten:",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Zahnbehandlung: 100%",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Wurzel- und Parodontose-Behandlung: bis zu 100%",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Zahnersatz: bis zu 90%",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Zahnprophylaxe: bis zu 170 € pro Jahr",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Kieferorthopädie für Kinder (bis 18 J.): bis zu 85% (bei Unfall max.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "2.500 €)",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Kieferorthopädie für Erwachsene (ab 19 J.): bis zu 85% (bei Unfall max.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "2.500 €)",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Schmerzlinderung (Akupunktur, Narkose, etc.): bis zu 150 €",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Leistungsstaffel im 1.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "Versicherungsjahr: 1.000 €",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Leistungsstaffel im 2.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "Versicherungsjahr: 2.000 €",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Leistungsstaffel im 3.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "Versicherungsjahr: 3.000 €",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Leistungsstaffel im 4.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "Versicherungsjahr: 4.000 €",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Ab dem 5.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "Jahr: unbegrenzt",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Mindestleistung Zahnersatz: mind.",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "80%",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Bonusheft-Upgrade: Ja",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Keine Wartezeit: Ja",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Unfallsofortschutz: Ja",
+                      "supportingIndices": [ 0 ]
+                    }, {
+                      "text": "*   Rechnungen mobil einreichen: Ja",
+                      "supportingIndices": [ 0 ]
+                    } ],
+                    "citedSnippets": [ {
+                      "searchSnippet": {
+                        "documentTitle": "Zahnzusatzversicherung",
+                        "documentUri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf",
+                        "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                        "document": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918/branches/0/documents/5efbfa3dbe624cbafa3cd108f3932097/chunks/c2"
+                      }
+                    } ],
+                    "groundingSignals": {
+                      "decision": "ACCEPTED_BY_GROUNDING",
+                      "score": "HIGH"
+                    },
+                    "safetySignals": {
+                      "decision": "ACCEPTED_BY_SAFETY_CHECK"
+                    },
+                    "answerTypeDegradationReason": "NONE"
+                  }
+                }
+              },
+              "subExecutionSteps": [ {
+                "name": "Responsible AI (with original query)",
+                "startTime": {
+                  "seconds": 1695500,
+                  "nanos": 405000000
+                },
+                "completeTime": {
+                  "seconds": 1695500,
+                  "nanos": 457000000
+                }
+              }, {
+                "name": "Query rewrite",
+                "startTime": {
+                  "seconds": 1695500,
+                  "nanos": 408000000
+                },
+                "completeTime": {
+                  "seconds": 1695500,
+                  "nanos": 887000000
+                }
+              }, {
+                "name": "Call Search with original query [unstructured documents]",
+                "startTime": {
+                  "seconds": 1695500,
+                  "nanos": 406000000
+                },
+                "completeTime": {
+                  "seconds": 1695501,
+                  "nanos": 654000000
+                }
+              }, {
+                "name": "Call Search with rewritten query [unstructured documents]",
+                "startTime": {
+                  "seconds": 1695500,
+                  "nanos": 887000000
+                },
+                "completeTime": {
+                  "seconds": 1695502,
+                  "nanos": 126000000
+                }
+              }, {
+                "name": "Convert UCS results for rewritten query",
+                "startTime": {
+                  "seconds": 1695500,
+                  "nanos": 887000000
+                },
+                "completeTime": {
+                  "seconds": 1695502,
+                  "nanos": 127000000
+                }
+              }, {
+                "name": "Convert UCS results for original query",
+                "startTime": {
+                  "seconds": 1695500,
+                  "nanos": 405000000
+                },
+                "completeTime": {
+                  "seconds": 1695501,
+                  "nanos": 655000000
+                }
+              }, {
+                "name": "ReAct turn",
+                "startTime": {
+                  "seconds": 1695502,
+                  "nanos": 132000000
+                },
+                "completeTime": {
+                  "seconds": 1695504,
+                  "nanos": 319000000
+                }
+              }, {
+                "name": "Responsible AI (with result before grounding)",
+                "startTime": {
+                  "seconds": 1695504,
+                  "nanos": 326000000
+                },
+                "completeTime": {
+                  "seconds": 1695504,
+                  "nanos": 375000000
+                }
+              }, {
+                "name": "Responsible AI (with original query and result)",
+                "startTime": {
+                  "seconds": 1695504,
+                  "nanos": 326000000
+                },
+                "completeTime": {
+                  "seconds": 1695504,
+                  "nanos": 375000000
+                }
+              }, {
+                "name": "Grounding",
+                "startTime": {
+                  "seconds": 1695504,
+                  "nanos": 326000000
+                },
+                "completeTime": {
+                  "seconds": 1695504,
+                  "nanos": 608000000
+                }
+              } ]
+            }, {
+              "agentUtterance": {
+                "text": "Im Tarif ZahnGesund 85+ sind umfangreiche Leistungen enthalten:\n\n*   **Zahnbehandlung** und **Wurzel- und Parodontose-Behandlung** werden zu 100% bzw. bis zu 100% erstattet.\n*   Für **Zahnersatz** erhalten Sie bis zu 90% Erstattung.\n*   Die **Zahnprophylaxe** wird mit bis zu 170 € pro Jahr bezuschusst.\n*   **Kieferorthopädie** für Kinder und Erwachsene (bei Unfall) ist bis zu 85% abgedeckt.\n*   Leistungen zur **Schmerzlinderung** (Akupunktur, Narkose, etc.) bis zu 150 €.\n*   Es gibt eine **Leistungsstaffel** in den ersten vier Jahren, die von 1.000 € im ersten Jahr auf 4.000 € im vierten Jahr ansteigt. Ab dem fünften Jahr sind die Leistungen unbegrenzt.\n*   Zusätzlich profitieren Sie von einer **Mindestleistung Zahnersatz** von 80%, einem **Bonusheft-Upgrade**, **keiner Wartezeit**, **Unfallsofortschutz** und der Möglichkeit, **Rechnungen mobil einzureichen**."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Nein, 85+ ist gut"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Möchten Sie den Tarif ZahnGesund 85+ abschließen?" ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Nein, 85+ ist gut"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Möchten Sie den Tarif ZahnGesund 85+ abschließen?"
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Alexander Nenninger"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Ich kann Ihnen gerne bei der Beantragung helfen. Bevor wir fortfahren, benötige ich noch ein paar Informationen, um den Antrag korrekt auszufüllen.\n\nBitte geben Sie mir Ihr Geburtsjahr." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Alexander Nenninger"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Ich kann Ihnen gerne bei der Beantragung helfen. Bevor wir fortfahren, benötige ich noch ein paar Informationen, um den Antrag korrekt auszufüllen.\n\nBitte geben Sie mir Ihr Geburtsjahr."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "23.3.1973"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag! Ich bin Ihr intelligenter Formular-Assistent für Ihren Zahnversicherungsantrag. Sie haben die Option \"ZahnGesund 85+\" ausgewählt.\n\nUm Ihren Antrag zu bearbeiten, benötige ich einige grundlegende Informationen von Ihnen. Bitte teilen Sie mir zunächst Ihren vollständigen rechtlichen Namen (Vor- und Nachname) mit, so wie er in offiziellen Dokumenten erscheint." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "23.3.1973"
+              }
+            }, {
+              "playbookInvocation": {
+                "playbook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b",
+                "playbookInput": {
+                  "actionParameters": {
+                    "selected_option": "ZahnGesund 85+"
+                  }
+                },
+                "playbookState": "OUTPUT_STATE_PENDING"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Guten Tag! Ich bin Ihr intelligenter Formular-Assistent für Ihren Zahnversicherungsantrag. Sie haben die Option \"ZahnGesund 85+\" ausgewählt.\n\nUm Ihren Antrag zu bearbeiten, benötige ich einige grundlegende Informationen von Ihnen. Bitte teilen Sie mir zunächst Ihren vollständigen rechtlichen Namen (Vor- und Nachname) mit, so wie er in offiziellen Dokumenten erscheint."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Sobald wie möglich"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Es tut mir leid, aber \"Sobald wie möglich\" ist keine gültige Antwort auf die Frage nach Ihrem vollständigen Namen. Bitte geben Sie mir Ihren vollständigen rechtlichen Namen (Vor- und Nachname) an, so wie er in offiziellen Dokumenten erscheint." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Sobald wie möglich"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Es tut mir leid, aber \"Sobald wie möglich\" ist keine gültige Antwort auf die Frage nach Ihrem vollständigen Namen. Bitte geben Sie mir Ihren vollständigen rechtlichen Namen (Vor- und Nachname) an, so wie er in offiziellen Dokumenten erscheint."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Heute ist der 31.07.2025"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Ich verstehe, dass heute der einunddreißigste Juli zweitausendfünfundzwanzig ist. Ich benötige jedoch weiterhin Ihren vollständigen rechtlichen Namen, um mit Ihrem Zahnversicherungsantrag fortfahren zu können." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Heute ist der 31.07.2025"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Ich verstehe, dass heute der einunddreißigste Juli zweitausendfünfundzwanzig ist. Ich benötige jedoch weiterhin Ihren vollständigen rechtlichen Namen, um mit Ihrem Zahnversicherungsantrag fortfahren zu können."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ok"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Könnten Sie mir bitte Ihren vollständigen rechtlichen Namen nennen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint?" ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Ok"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Könnten Sie mir bitte Ihren vollständigen rechtlichen Namen nennen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint?"
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hans-Döllgast-Straße 25, 80807 München"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank. Das ist Ihre Adresse. Bevor wir jedoch dazu kommen, benötige ich noch Ihren vollständigen rechtlichen Namen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Hans-Döllgast-Straße 25, 80807 München"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Vielen Dank. Das ist Ihre Adresse. Bevor wir jedoch dazu kommen, benötige ich noch Ihren vollständigen rechtlichen Namen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "+49 152 79 43 118"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank für Ihre Telefonnummer. Ich benötige jedoch weiterhin Ihren vollständigen rechtlichen Namen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint, bevor ich mit den anderen Details fortfahren kann." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "+49 152 79 43 118"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Vielen Dank für Ihre Telefonnummer. Ich benötige jedoch weiterhin Ihren vollständigen rechtlichen Namen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint, bevor ich mit den anderen Details fortfahren kann."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "test@nttdata.com"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank für Ihre E-Mail-Adresse. Ich benötige jedoch weiterhin Ihren vollständigen rechtlichen Namen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "test@nttdata.com"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Vielen Dank für Ihre E-Mail-Adresse. Ich benötige jedoch weiterhin Ihren vollständigen rechtlichen Namen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "JA"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Es tut mir leid, aber \"JA\" ist keine gültige Antwort auf die Frage nach Ihrem vollständigen Namen. Bitte geben Sie mir Ihren vollständigen rechtlichen Namen (Vor- und Nachname) an, so wie er in offiziellen Dokumenten erscheint." ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "JA"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Es tut mir leid, aber \"JA\" ist keine gültige Antwort auf die Frage nach Ihrem vollständigen Namen. Bitte geben Sie mir Ihren vollständigen rechtlichen Namen (Vor- und Nachname) an, so wie er in offiziellen Dokumenten erscheint."
+              }
+            } ]
+          }
+        }
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ok"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Könnten Sie mir bitte Ihren vollständigen rechtlichen Namen nennen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint?" ]
+          }
+        } ],
+        "diagnosticInfo": {
+          "Triggered Transition Names": [ ]
+        },
+        "generativeInfo": {
+          "currentPlaybooks": [ "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b" ],
+          "actionTracingInfo": {
+            "actions": [ {
+              "userUtterance": {
+                "text": "Ok"
+              }
+            }, {
+              "agentUtterance": {
+                "text": "Könnten Sie mir bitte Ihren vollständigen rechtlichen Namen nennen (Vor- und Nachname), so wie er in offiziellen Dokumenten erscheint?"
+              }
+            } ]
+          }
+        }
+      }
+    }
+  } ],
+  "createTime": {
+    "seconds": 1753961578,
+    "nanos": 494588000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "en"
+}

@@ -1,0 +1,71 @@
+openapi: 3.1.0
+info:
+  title: Appointment Creator Tool
+  description: Create appointments for insurance advisor callbacks
+  version: 1.0.0
+servers:
+  - url: https://callback-service-348511322333.europe-west3.run.app
+    description: Production server
+paths:
+  /api/appointment/create:
+    post:
+      summary: Create Appointment
+      operationId: create_appointment_api_appointment_create_post
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                insurance_advisor_email:
+                  type: string
+                  title: Insurance Advisor Email
+                  default: callback-service@rxry.onmicrosoft.com
+                  example: callback-service@rxry.onmicrosoft.com
+                customer_name:
+                  type: string
+                  title: Customer Name
+                  default: Max Mustermann
+                  example: Max Mustermann
+                customer_phone:
+                  type: string
+                  title: Customer Phone
+                  default: '+491234567890'
+                  example: '+491234567890'
+                start_datetime:
+                  type: string
+                  title: Start Datetime
+                  default: '2025-07-30T10:00:00'
+                  example: '2025-07-30T10:00:00'
+                end_datetime:
+                  type: string
+                  title: End Datetime
+                  default: '2025-07-30T10:30:00'
+                  example: '2025-07-30T10:30:00'
+                notes:
+                  type: string
+                  title: Notes
+                  default: ''
+                  example: Bitte Rückruf wegen Versicherungsanfrage
+              required:
+                - insurance_advisor_email
+                - customer_name
+                - customer_phone
+                - start_datetime
+                - end_datetime
+                - notes
+        required: true
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: 'success'
+                  appointment_id:
+                    type: string
+                    example: "AAMkAGI2T..."

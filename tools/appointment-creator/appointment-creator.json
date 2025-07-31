@@ -1,0 +1,9 @@
+{
+  "name": "6ac8ae98-63ee-474d-9fe5-a7cdef940977",
+  "displayName": "appointment-creator",
+  "description": "This tool create an appointment in the calendar of the insurance_advisor",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

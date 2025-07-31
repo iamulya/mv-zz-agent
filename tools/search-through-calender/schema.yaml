@@ -1,0 +1,95 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Availability Check API",
+    "version": "1.0.0",
+    "description": "Check insurance advisor availability for callbacks"
+  },
+  "servers": [
+    {
+      "url": "https://callback-service-348511322333.europe-west3.run.app",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/api/availability/check": {
+      "post": {
+        "summary": "Check Availability",
+        "operationId": "checkAvailability",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "insurance_advisor_email": {
+                    "type": "string",
+                    "description": "Email of the insurance advisor",
+                    "default": "callback-service@rxry.onmicrosoft.com"
+                  },
+                  "duration_minutes": {
+                    "type": "integer",
+                    "description": "Duration of appointment in minutes",
+                    "default": 30
+                  },
+                  "number_of_time_slots": {
+                    "type": "integer",
+                    "description": "Number of available slots to return",
+                    "default": 3
+                  },
+                  "max_days_ahead": {
+                    "type": "integer",
+                    "description": "Maximum days to search ahead",
+                    "default": 14
+                  }
+                },
+                "required": [
+                  "insurance_advisor_email",
+                  "start_datetime",
+                  "duration_minutes",
+                  "number_of_time_slots",
+                  "max_days_ahead"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Available time slots",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "slots": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "slot_id": {
+                            "type": "string"
+                          },
+                          "start_datetime": {
+                            "type": "string"
+                          },
+                          "end_datetime": {
+                            "type": "string"
+                          },
+                          "formatted_time": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

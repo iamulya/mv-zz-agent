@@ -1,0 +1,8 @@
+{
+  "name": "9c06822d-07d2-493a-9982-9e5384fa04a3",
+  "displayName": "get_price",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

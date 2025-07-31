@@ -1,0 +1,320 @@
+{
+  "name": "ba80631f-c2f8-4a31-b6b4-793656d32556",
+  "tags": [ "#Salesagent" ],
+  "displayName": "Test Case Schlechtes Deutsch",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hi, ich bin Alex. Ich brauche Versicherung für meine Zahn"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag Alex! Mein Name ist Max von der Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Guten Tag Alex! Mein Name ist Max von der Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Wie?"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Entschuldigen Sie bitte, da habe ich mich vielleicht missverständlich ausgedrückt. Es ist wichtig für mich zu wissen, ob Ihr Zahnarzt Ihnen bereits zu einer speziellen Behandlung geraten hat, oder ob Sie vielleicht schon einen Termin dafür haben oder eine Behandlung schon läuft. Das ist für unsere Zahnzusatzversicherung von Bedeutung." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Entschuldigen Sie bitte, da habe ich mich vielleicht missverständlich ausgedrückt. Es ist wichtig für mich zu wissen, ob Ihr Zahnarzt Ihnen bereits zu einer speziellen Behandlung geraten hat, oder ob Sie vielleicht schon einen Termin dafür haben oder eine Behandlung schon läuft. Das ist für unsere Zahnzusatzversicherung von Bedeutung."
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ne"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Das ist gut! Dann gleich die nächste wichtige Frage: Haben Sie einen oder mehrere Zähne, die bereits fehlen, aber noch nicht durch Zahnersatz wie eine Brücke oder ein Implantat versorgt sind?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Das ist gut! Dann gleich die nächste wichtige Frage: Haben Sie einen oder mehrere Zähne, die bereits fehlen, aber noch nicht durch Zahnersatz wie eine Brücke oder ein Implantat versorgt sind?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ich habe vorne eine Lücke"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Okay, vielen Dank für die Information. Es ist also eine Lücke im Frontzahnbereich vorhanden, die noch nicht durch Zahnersatz versorgt ist.\n\nWorauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Okay, vielen Dank für die Information. Es ist also eine Lücke im Frontzahnbereich vorhanden, die noch nicht durch Zahnersatz versorgt ist.\n\nWorauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Alles"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Sie wünschen sich also eine umfassende Absicherung, die alles abdeckt – von Zahnersatz über professionelle Zahnreinigung bis hin zu Kieferorthopädie und Bleaching. Das ist ein guter Ansatz für eine optimale Zahngesundheit!\n\nHier ist der Vergleich unserer Tarife ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100, basierend auf Ihren Wünschen:\n\n*   **Zahnersatz (Erstattung inkl. GKV):**\n    *   ZahnGesund 75+: bis 75 % (+ 5 % Bonus bei Bonusheft)\n    *   ZahnGesund 85+: bis 85 % (+ 5 % Bonus bei Bonusheft)\n    *   ZahnGesund 100: bis 100 % (Testsieger!)\n\n*   **Zahnprophylaxe (pro Jahr):**\n    *   ZahnGesund 75+: bis 150 € (2x 75 €)\n    *   ZahnGesund 85+: bis 170 € (2x 85 €)\n    *   ZahnGesund 100: bis 200 € (2x 100 €)\n\n*   **Kieferorthopädie für Erwachsene (ab 19 Jahre):**\n    *   ZahnGesund 75+: bis 75 % (max. 1.000 € bei Unfall)\n    *   ZahnGesund 85+: bis 85 % (max. 2.500 € bei Unfall)\n    *   ZahnGesund 100: bis 100 % (max. 2.500 € bei Unfall)\n\n*   **Zahn-Bleaching:**\n    *   ZahnGesund 75+: Nein\n    *   ZahnGesund 85+: Nein\n    *   ZahnGesund 100: bis 200 € (alle 2 Versicherungsjahre)\n\nDer Tarif **ZahnGesund 100** bietet hier die umfassendste Abdeckung, inklusive Bleaching und der höchsten Erstattung für Zahnersatz und Prophylaxe. Er wurde auch von Stiftung Warentest mit \"SEHR GUT\" (0,5) als Testsieger ausgezeichnet.\n\nBeachten Sie, dass es eine Leistungsstaffel in den ersten Jahren gibt. Im Tarif ZahnGesund 100 sind das zum Beispiel 1.500 € im ersten Jahr. Ab dem fünften Jahr sind die Leistungen dann unbegrenzt.\n\nHaben Sie weitere Fragen zu den einzelnen Leistungen oder möchten Sie, dass ich Ihnen ein konkretes Beispiel durchrechne?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Sie wünschen sich also eine umfassende Absicherung, die alles abdeckt – von Zahnersatz über professionelle Zahnreinigung bis hin zu Kieferorthopädie und Bleaching. Das ist ein guter Ansatz für eine optimale Zahngesundheit!\n\nHier ist der Vergleich unserer Tarife ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100, basierend auf Ihren Wünschen:\n\n*   **Zahnersatz (Erstattung inkl. GKV):**\n    *   ZahnGesund 75+: bis 75 % (+ 5 % Bonus bei Bonusheft)\n    *   ZahnGesund 85+: bis 85 % (+ 5 % Bonus bei Bonusheft)\n    *   ZahnGesund 100: bis 100 % (Testsieger!)\n\n*   **Zahnprophylaxe (pro Jahr):**\n    *   ZahnGesund 75+: bis 150 € (2x 75 €)\n    *   ZahnGesund 85+: bis 170 € (2x 85 €)\n    *   ZahnGesund 100: bis 200 € (2x 100 €)\n\n*   **Kieferorthopädie für Erwachsene (ab 19 Jahre):**\n    *   ZahnGesund 75+: bis 75 % (max. 1.000 € bei Unfall)\n    *   ZahnGesund 85+: bis 85 % (max. 2.500 € bei Unfall)\n    *   ZahnGesund 100: bis 100 % (max. 2.500 € bei Unfall)\n\n*   **Zahn-Bleaching:**\n    *   ZahnGesund 75+: Nein\n    *   ZahnGesund 85+: Nein\n    *   ZahnGesund 100: bis 200 € (alle 2 Versicherungsjahre)\n\nDer Tarif **ZahnGesund 100** bietet hier die umfassendste Abdeckung, inklusive Bleaching und der höchsten Erstattung für Zahnersatz und Prophylaxe. Er wurde auch von Stiftung Warentest mit \"SEHR GUT\" (0,5) als Testsieger ausgezeichnet.\n\nBeachten Sie, dass es eine Leistungsstaffel in den ersten Jahren gibt. Im Tarif ZahnGesund 100 sind das zum Beispiel 1.500 € im ersten Jahr. Ab dem fünften Jahr sind die Leistungen dann unbegrenzt.\n\nHaben Sie weitere Fragen zu den einzelnen Leistungen oder möchten Sie, dass ich Ihnen ein konkretes Beispiel durchrechne?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ok, 100"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Ausgezeichnete Entscheidung! Der Tarif 'ZahnGesund 100' passt hervorragend zu Ihren Wünschen und bietet Ihnen den umfassendsten Schutz.\n\nUm den Antrag jetzt schnell und unkompliziert für Sie zu erstellen, übergebe ich Sie an unseren digitalen Antrags-Assistenten.\n" ]
+          }
+        }, {
+          "text": {
+            "text": [ "Hallo! Ich bin Ihr intelligenter Formular-Assistent. Sie haben die Option \"ZahnGesund 100\" ausgewählt.\n\nBitte geben Sie mir Ihre Grundinformationen, um den Zahnversicherungsantrag zu vervollständigen. Beginnen wir mit Ihrem vollständigen Namen (Vor- und Nachname), wie er in offiziellen Dokumenten erscheint." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Ausgezeichnete Entscheidung! Der Tarif 'ZahnGesund 100' passt hervorragend zu Ihren Wünschen und bietet Ihnen den umfassendsten Schutz.\n\nUm den Antrag jetzt schnell und unkompliziert für Sie zu erstellen, übergebe ich Sie an unseren digitalen Antrags-Assistenten.\nHallo! Ich bin Ihr intelligenter Formular-Assistent. Sie haben die Option \"ZahnGesund 100\" ausgewählt.\n\nBitte geben Sie mir Ihre Grundinformationen, um den Zahnversicherungsantrag zu vervollständigen. Beginnen wir mit Ihrem vollständigen Namen (Vor- und Nachname), wie er in offiziellen Dokumenten erscheint."
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Alexander Nenninger"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank, Alexander Nenninger.\n\nAls Nächstes benötige ich Ihr vollständiges Geburtsdatum im Format TT.MM.JJJJ." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Vielen Dank, Alexander Nenninger.\n\nAls Nächstes benötige ich Ihr vollständiges Geburtsdatum im Format TT.MM.JJJJ."
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "23.03.1950"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Danke schön.\n\nWas ist Ihr aktueller Familienstand (ledig, verheiratet, geschieden, verwitwet, eingetragene Partnerschaft)?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Danke schön.\n\nWas ist Ihr aktueller Familienstand (ledig, verheiratet, geschieden, verwitwet, eingetragene Partnerschaft)?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Verwitwet"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Alles klar.\n\nAls letztes benötige ich Ihre aktuelle Versicherungsnummer (10-stelliges Format). Falls Sie keine haben, vermerken Sie dies bitte für die Bearbeitung eines Neuantrags." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Alles klar.\n\nAls letztes benötige ich Ihre aktuelle Versicherungsnummer (10-stelliges Format). Falls Sie keine haben, vermerken Sie dies bitte für die Bearbeitung eines Neuantrags."
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "hab nich"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Sie haben keine Versicherungsnummer. Das ist kein Problem, wir werden einen Neuantrag für Sie bearbeiten.\n\nUm zusammenzufassen: Sie möchten einen Zahnversicherungsantrag für die Option \"ZahnGesund 100\" stellen. Ihre Daten sind:\n\n*   **Name:** Alexander Nenninger\n*   **Geburtsdatum:** 23.03.1950\n*   **Familienstand:** verwitwet\n*   **Versicherungsnummer:** keine vorhanden (Neuantrag wird gestellt)\n\nStimmen diese Informationen und die ausgewählte Option \"ZahnGesund 100\" überein?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Sie haben keine Versicherungsnummer. Das ist kein Problem, wir werden einen Neuantrag für Sie bearbeiten.\n\nUm zusammenzufassen: Sie möchten einen Zahnversicherungsantrag für die Option \"ZahnGesund 100\" stellen. Ihre Daten sind:\n\n*   **Name:** Alexander Nenninger\n*   **Geburtsdatum:** 23.03.1950\n*   **Familienstand:** verwitwet\n*   **Versicherungsnummer:** keine vorhanden (Neuantrag wird gestellt)\n\nStimmen diese Informationen und die ausgewählte Option \"ZahnGesund 100\" überein?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "ja"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank, Herr Nenninger. Ihr Antrag wurde erfolgreich übermittelt.\n\nIhre Antragsreferenznummer lautet: **[Wird Ihnen in Kürze per E-Mail zugesandt]**\n\nDie nächsten Schritte sind:\n\n1.  Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Antragsreferenznummer und weiteren Details.\n2.  Da Sie noch keine Versicherungsnummer haben, wird Ihnen im Rahmen der Bearbeitung eine neue Versicherungsnummer zugewiesen.\n3.  Wir werden Ihren Antrag so schnell wie möglich bearbeiten. Sie erhalten weitere Informationen zum Status Ihres Antrags per Post oder E-Mail.\n\nVielen Dank für die Nutzung unseres Services!" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Vielen Dank, Herr Nenninger. Ihr Antrag wurde erfolgreich übermittelt.\n\nIhre Antragsreferenznummer lautet: **[Wird Ihnen in Kürze per E-Mail zugesandt]**\n\nDie nächsten Schritte sind:\n\n1.  Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Antragsreferenznummer und weiteren Details.\n2.  Da Sie noch keine Versicherungsnummer haben, wird Ihnen im Rahmen der Bearbeitung eine neue Versicherungsnummer zugewiesen.\n3.  Wir werden Ihren Antrag so schnell wie möglich bearbeiten. Sie erhalten weitere Informationen zum Status Ihres Antrags per Post oder E-Mail.\n\nVielen Dank für die Nutzung unseres Services!"
+      } ]
+    } ]
+  } ],
+  "orderedExpectations": [ {
+    "expectations": [ {
+      "expectedAction": {
+        "toolUse": {
+          "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/6b9b1d19-3c8e-4afb-a7d2-cee50597d7e7",
+          "action": "get_zz_info",
+          "inputActionParameters": {
+            "requestBody": {
+              "query": "Unterschiede ZahnGesund 75+, ZahnGesund 85+, ZahnGesund 100 bei Zahnersatz, professioneller Zahnreinigung, Kieferorthopädie und Bleaching"
+            }
+          },
+          "outputActionParameters": {
+            "200": {
+              "answer": "Gerne, hier sind die Unterschiede der Tarife ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100 bezüglich Zahnersatz, professioneller Zahnreinigung, Kieferorthopädie und Bleaching:\n\n*   **Zahnersatz (Erstattung inkl. GKV):**\n    *   ZahnGesund 75+: bis 75 % (+ 5 % Bonus bei Bonusheft)\n    *   ZahnGesund 85+: bis 85 % (+ 5 % Bonus bei Bonusheft)\n    *   ZahnGesund 100: bis 100 %\n*   **Zahnprophylaxe (pro Jahr):**\n    *   ZahnGesund 75+: bis 150 € (2x 75 €)\n    *   ZahnGesund 85+: bis 170 € (2x 85 €)\n    *   ZahnGesund 100: bis 200 € (2x 100 €)\n*   **Kieferorthopädie für Erwachsene (ab 19 Jahre):**\n    *   ZahnGesund 75+: bis 75 % (max. 1.000 € bei Unfall)\n    *   ZahnGesund 85+: bis 85 % (max. 2.500 € bei Unfall)\n    *   ZahnGesund 100: bis 100 % (max. 2.500 € bei Unfall)\n*   **Zahn-Bleaching:**\n    *   ZahnGesund 75+: Nein\n    *   ZahnGesund 85+: Nein\n    *   ZahnGesund 100: bis 200 € (alle 2 Versicherungsjahre)",
+              "snippets": [ {
+                "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                "title": "Zahnzusatzversicherung",
+                "uri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf#page=2"
+              } ]
+            }
+          }
+        }
+      }
+    } ]
+  }, {
+    "expectations": [ {
+      "expectedAction": {
+        "playbookInvocation": {
+          "playbook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b",
+          "playbookInput": {
+            "actionParameters": {
+              "selected_option": "ZahnGesund 100"
+            }
+          },
+          "playbookOutput": {
+            "state": "OK"
+          },
+          "playbookState": "OUTPUT_STATE_PENDING"
+        }
+      }
+    } ]
+  }, {
+    "expectations": [ {
+      "expectedAction": {
+        "toolUse": {
+          "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/a2409c10-a3ea-4d03-9422-f85758e94e10",
+          "action": "postAntragStatus",
+          "outputActionParameters": {
+            "200": {
+              "message": "Der Antrag wurde erfolgreich abgeschlossen.",
+              "status": "antrag abgeschlossen"
+            }
+          }
+        }
+      }
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753948605,
+    "nanos": 602292000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "en"
+}

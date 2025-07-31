@@ -1,0 +1,40 @@
+{
+  "name": "7ea3f282-2f84-40a9-88a5-219a4a0c9b41",
+  "tags": [ "#Introduction" ],
+  "displayName": "Introduction",
+  "notes": "The company name is \"Münchener Verein\". Thus the introduction should read: \"Mein Name ist Max *vom* Münchener Verein\"\n\n",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hallo"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag! Mein Name ist Max von der Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Guten Tag! Mein Name ist Max von der Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**"
+      } ]
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753946058,
+    "nanos": 813095000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "de"
+}

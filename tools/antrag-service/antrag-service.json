@@ -1,0 +1,9 @@
+{
+  "name": "a2409c10-a3ea-4d03-9422-f85758e94e10",
+  "displayName": "antrag-service",
+  "description": "HTTP Cloud Function that provides application status information",
+  "openApiSpec": {
+  
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

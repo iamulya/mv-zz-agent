@@ -1,0 +1,142 @@
+openapi: 3.0.3
+info:
+  title: Get Price API
+  description: HTTP Cloud Function that calculates pricing based on age derived from birth year
+  version: 1.0.0
+  contact:
+    name: API Support
+servers:
+  - url: https://calculate-price-553278931801.europe-west1.run.app
+    description: Google Cloud Function endpoint
+paths:
+  /get_price:
+    post:
+      summary: Calculate price based on birth year
+      description: |
+        Calculates a price based on the user's age derived from their birth year.
+        - If age > 25: price = 85
+        - Otherwise: price = 0
+        
+        Age is calculated as: 2025 - birth_year
+      operationId: getPrice
+      requestBody:
+        description: Request payload containing birth year
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                birthday:
+                  type: integer
+                  description: Birth year (e.g., 1990)
+                  example: 1990
+                  minimum: 1900
+                  maximum: 2025
+            examples:
+              older_than_25:
+                summary: User older than 25 (born before 2000)
+                value:
+                  birthday: 1990
+              exactly_25:
+                summary: User exactly 25 years old (born in 2000)
+                value:
+                  birthday: 2000
+              younger_than_25:
+                summary: User younger than 25 (born after 2000)
+                value:
+                  birthday: 2005
+              no_birthday:
+                summary: No birthday provided
+                value: {}
+      responses:
+        '200':
+          description: Successful response with calculated price
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - price
+                properties:
+                  price:
+                    type: integer
+                    description: Calculated price based on age (0 or 85)
+                    example: 85
+                    enum: [0, 85]
+              examples:
+                price_85:
+                  summary: Price for users older than 25
+                  value:
+                    price: 85
+                price_0:
+                  summary: Price for users 25 or younger, or no birthday provided
+                  value:
+                    price: 0
+        '400':
+          description: Bad request (malformed JSON)
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - error
+                properties:
+                  error:
+                    type: string
+                    description: Error message
+                    example: "Invalid JSON format"
+              examples:
+                invalid_json:
+                  summary: Malformed JSON
+                  value:
+                    error: "Invalid JSON format"
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - error
+                properties:
+                  error:
+                    type: string
+                    description: Error message
+                    example: "Internal server error"
+              examples:
+                server_error:
+                  summary: Server error
+                  value:
+                    error: "Internal server error"
+    get:
+      summary: Get price endpoint info
+      description: Returns information about the get_price endpoint (no price calculation via GET method)
+      operationId: getPriceInfo
+      responses:
+        '200':
+          description: Endpoint information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Use POST method with JSON body containing 'birthday' field (birth year)"
+                  price:
+                    type: integer
+                    example: 0
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - error
+                properties:
+                  error:
+                    type: string
+                    description: Error message
+                    example: "Internal server error"

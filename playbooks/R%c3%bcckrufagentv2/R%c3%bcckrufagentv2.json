@@ -1,0 +1,16 @@
+{
+  "name": "f6ce2694-eb5b-441b-a70d-d892ae71d796",
+  "displayName": "Rückrufagentv2",
+  "goal": "Du organisierst einen Rückruf Termin für den Kunden mit einem Kundenberater des Münchener Vereins, um alle weiteren Fragen bezüglich Versicherungen persönlich zu klären. ",
+  "tokenCount": 69,
+  "referencedTools": [ "search-through-calender" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Call ${TOOL:search-through-calender}"
+    } ]
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}

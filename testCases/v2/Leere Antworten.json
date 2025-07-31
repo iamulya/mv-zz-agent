@@ -1,0 +1,304 @@
+{
+  "name": "fba7df70-9ebd-4cce-8f1e-8ca94e5a495a",
+  "tags": [ "#Salesagent" ],
+  "displayName": "Leere Antworten",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde. Was kann ich für Sie tun?\n\nUm den passenden Schutz für Sie zu finden, ist eine Frage ganz entscheidend, da unsere Tarife für zukünftige Behandlungen leisten: **Wurde bei Ihnen von einem Zahnarzt bereits eine Behandlung angeraten, empfohlen oder ist sogar schon eine in Planung oder begonnen worden?**"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Bevor wir ins Detail gehen, habe ich noch eine weitere wichtige Frage: Haben Sie einen oder mehrere Zähne, die bereits fehlen, aber noch nicht durch Zahnersatz wie eine Brücke oder ein Implantat versorgt sind?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Bevor wir ins Detail gehen, habe ich noch eine weitere wichtige Frage: Haben Sie einen oder mehrere Zähne, die bereits fehlen, aber noch nicht durch Zahnersatz wie eine Brücke oder ein Implantat versorgt sind?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Vielen Dank für die Offenheit. Das hilft mir sehr. Worauf legen Sie denn bei Ihrer zukünftigen Absicherung besonderen Wert? Geht es Ihnen vor allem um **Zahnersatz** wie Implantate und Kronen, die **professionelle Zahnreinigung**, **Kieferorthopädie** oder vielleicht auch um **Bleaching**?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt.\n\nDer Münchener Verein bietet Ihnen drei exzellente Tarife an: ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100. Alle wurden von Stiftung Warentest mit \"SEHR GUT\" bewertet und bieten Ihnen Sofortschutz ohne Wartezeiten.\n\nMöchten Sie, dass ich Ihnen die Unterschiede zwischen den Tarifen erkläre, insbesondere im Hinblick auf Zahnersatz und professionelle Zahnreinigung?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Okay, ich habe verstanden. Es steht also aktuell keine Behandlung an. Ihnen ist aber eine erstklassige Absicherung für hochwertigen Zahnersatz und die jährliche Prophylaxe besonders wichtig, korrekt? Dann schauen wir uns mal an, welcher unserer drei Top-Tarife am besten zu Ihnen passt.\n\nDer Münchener Verein bietet Ihnen drei exzellente Tarife an: ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100. Alle wurden von Stiftung Warentest mit \"SEHR GUT\" bewertet und bieten Ihnen Sofortschutz ohne Wartezeiten.\n\nMöchten Sie, dass ich Ihnen die Unterschiede zwischen den Tarifen erkläre, insbesondere im Hinblick auf Zahnersatz und professionelle Zahnreinigung?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Gerne erkläre ich Ihnen die Unterschiede bei Zahnersatz und professioneller Zahnreinigung zwischen unseren Tarifen:\n\n**Zahnersatz (Erstattung inklusive GKV-Vorleistung):**\n\n*   **ZahnGesund 75+**: Hier erhalten Sie eine Erstattung von bis zu 75% der Kosten. Wenn Sie ein Bonusheft führen, gibt es zusätzlich 5% Upgrade.\n*   **ZahnGesund 85+**: Bei diesem Tarif liegt die Erstattung bei bis zu 85% der Kosten, ebenfalls mit einem zusätzlichen 5% Upgrade bei geführtem Bonusheft.\n*   **ZahnGesund 100**: Unser Testsieger-Tarif erstattet Ihnen bis zu 100% der Kosten für Zahnersatz, inklusive der Vorleistung Ihrer gesetzlichen Krankenversicherung.\n\n**Zahnprophylaxe pro Jahr:**\n\n*   **ZahnGesund 75+**: Erstattet bis zu 150 € pro Jahr, aufgeteilt auf zweimal 75 €.\n*   **ZahnGesund 85+**: Hier werden Ihnen bis zu 170 € pro Jahr erstattet, ebenfalls aufgeteilt auf zweimal 85 €.\n*   **ZahnGesund 100**: Im Testsieger-Tarif erhalten Sie bis zu 200 € pro Jahr für Zahnprophylaxe, aufgeteilt auf zweimal 100 €.\n\nAlle Tarife bieten Ihnen den Vorteil des Sofortschutzes ohne Wartezeit, was bedeutet, dass Sie die Leistungen ab dem ersten Tag in Anspruch nehmen können, natürlich im Rahmen der jeweiligen Leistungsstaffel.\n\nWelcher dieser Tarife spricht Sie am meisten an, oder möchten Sie noch mehr über die Leistungsstaffel oder andere Details erfahren?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Gerne erkläre ich Ihnen die Unterschiede bei Zahnersatz und professioneller Zahnreinigung zwischen unseren Tarifen:\n\n**Zahnersatz (Erstattung inklusive GKV-Vorleistung):**\n\n*   **ZahnGesund 75+**: Hier erhalten Sie eine Erstattung von bis zu 75% der Kosten. Wenn Sie ein Bonusheft führen, gibt es zusätzlich 5% Upgrade.\n*   **ZahnGesund 85+**: Bei diesem Tarif liegt die Erstattung bei bis zu 85% der Kosten, ebenfalls mit einem zusätzlichen 5% Upgrade bei geführtem Bonusheft.\n*   **ZahnGesund 100**: Unser Testsieger-Tarif erstattet Ihnen bis zu 100% der Kosten für Zahnersatz, inklusive der Vorleistung Ihrer gesetzlichen Krankenversicherung.\n\n**Zahnprophylaxe pro Jahr:**\n\n*   **ZahnGesund 75+**: Erstattet bis zu 150 € pro Jahr, aufgeteilt auf zweimal 75 €.\n*   **ZahnGesund 85+**: Hier werden Ihnen bis zu 170 € pro Jahr erstattet, ebenfalls aufgeteilt auf zweimal 85 €.\n*   **ZahnGesund 100**: Im Testsieger-Tarif erhalten Sie bis zu 200 € pro Jahr für Zahnprophylaxe, aufgeteilt auf zweimal 100 €.\n\nAlle Tarife bieten Ihnen den Vorteil des Sofortschutzes ohne Wartezeit, was bedeutet, dass Sie die Leistungen ab dem ersten Tag in Anspruch nehmen können, natürlich im Rahmen der jeweiligen Leistungsstaffel.\n\nWelcher dieser Tarife spricht Sie am meisten an, oder möchten Sie noch mehr über die Leistungsstaffel oder andere Details erfahren?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Das ist eine sehr wichtige Frage! Die Leistungsstaffel bedeutet, dass die Erstattungen in den ersten vier Jahren begrenzt sind, um die Beiträge für alle fair und stabil zu halten. Ab dem fünften Jahr sind die Leistungen dann unbegrenzt.\n\nHier die genauen Maximallimitierungen für das erste Versicherungsjahr:\n\n*   Im Tarif **ZahnGesund 75+** beträgt die maximale Erstattung im ersten Jahr 900 €.\n*   Im Tarif **ZahnGesund 85+** können Sie im ersten Jahr bis zu 1.000 € erstattet bekommen.\n*   Unser Testsieger **ZahnGesund 100** bietet Ihnen im ersten Jahr eine maximale Erstattung von 1.500 €.\n\nEs ist wichtig zu betonen, dass es sich hierbei um **Sofortschutz ohne Wartezeit** handelt. Das bedeutet, Sie müssen nicht erst Monate warten, bis Sie Leistungen in Anspruch nehmen können. Der Schutz gilt ab dem ersten Tag, natürlich im Rahmen dieser Leistungsstaffel.\n\nVerständlich erklärt? Haben Sie weitere Fragen dazu, oder möchten Sie, dass ich Ihnen die Staffelung für die weiteren Jahre nenne?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Das ist eine sehr wichtige Frage! Die Leistungsstaffel bedeutet, dass die Erstattungen in den ersten vier Jahren begrenzt sind, um die Beiträge für alle fair und stabil zu halten. Ab dem fünften Jahr sind die Leistungen dann unbegrenzt.\n\nHier die genauen Maximallimitierungen für das erste Versicherungsjahr:\n\n*   Im Tarif **ZahnGesund 75+** beträgt die maximale Erstattung im ersten Jahr 900 €.\n*   Im Tarif **ZahnGesund 85+** können Sie im ersten Jahr bis zu 1.000 € erstattet bekommen.\n*   Unser Testsieger **ZahnGesund 100** bietet Ihnen im ersten Jahr eine maximale Erstattung von 1.500 €.\n\nEs ist wichtig zu betonen, dass es sich hierbei um **Sofortschutz ohne Wartezeit** handelt. Das bedeutet, Sie müssen nicht erst Monate warten, bis Sie Leistungen in Anspruch nehmen können. Der Schutz gilt ab dem ersten Tag, natürlich im Rahmen dieser Leistungsstaffel.\n\nVerständlich erklärt? Haben Sie weitere Fragen dazu, oder möchten Sie, dass ich Ihnen die Staffelung für die weiteren Jahre nenne?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Das freut mich sehr zu hören!\n\nGerne fasse ich noch einmal zusammen:\n\n*   **ZahnGesund 75+**: Erstattet bis zu 75% für Zahnersatz und bis zu 150 € für Zahnprophylaxe pro Jahr. Die maximale Erstattung im ersten Jahr beträgt 900 €.\n*   **ZahnGesund 85+**: Erstattet bis zu 85% für Zahnersatz und bis zu 170 € für Zahnprophylaxe pro Jahr. Die maximale Erstattung im ersten Jahr beträgt 1.000 €.\n*   **ZahnGesund 100**: Unser Testsieger-Tarif, der bis zu 100% für Zahnersatz und bis zu 200 € für Zahnprophylaxe pro Jahr erstattet. Die maximale Erstattung im ersten Jahr beträgt 1.500 €.\n\nAlle Tarife bieten Ihnen einen **Sofortschutz ohne Wartezeit** und die Möglichkeit der **Anrechnung von Vorversicherungszeiten**, falls Sie von einem anderen Anbieter wechseln. Außerdem sind alle Tarife von Stiftung Warentest mit \"SEHR GUT\" ausgezeichnet worden, wobei der ZahnGesund 100 die Bestnote von 0,5 erreicht hat.\n\nBasierend auf Ihren Wünschen nach einer erstklassigen Absicherung für hochwertigen Zahnersatz und jährliche Prophylaxe, würde ich Ihnen den Tarif **ZahnGesund 100** ans Herz legen. Er bietet Ihnen die höchste Erstattung und somit den umfangreichsten Schutz.\n\nWas meinen Sie? Sprechen wir über den ZahnGesund 100, oder möchten Sie noch etwas über die anderen Tarife wissen?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Das freut mich sehr zu hören!\n\nGerne fasse ich noch einmal zusammen:\n\n*   **ZahnGesund 75+**: Erstattet bis zu 75% für Zahnersatz und bis zu 150 € für Zahnprophylaxe pro Jahr. Die maximale Erstattung im ersten Jahr beträgt 900 €.\n*   **ZahnGesund 85+**: Erstattet bis zu 85% für Zahnersatz und bis zu 170 € für Zahnprophylaxe pro Jahr. Die maximale Erstattung im ersten Jahr beträgt 1.000 €.\n*   **ZahnGesund 100**: Unser Testsieger-Tarif, der bis zu 100% für Zahnersatz und bis zu 200 € für Zahnprophylaxe pro Jahr erstattet. Die maximale Erstattung im ersten Jahr beträgt 1.500 €.\n\nAlle Tarife bieten Ihnen einen **Sofortschutz ohne Wartezeit** und die Möglichkeit der **Anrechnung von Vorversicherungszeiten**, falls Sie von einem anderen Anbieter wechseln. Außerdem sind alle Tarife von Stiftung Warentest mit \"SEHR GUT\" ausgezeichnet worden, wobei der ZahnGesund 100 die Bestnote von 0,5 erreicht hat.\n\nBasierend auf Ihren Wünschen nach einer erstklassigen Absicherung für hochwertigen Zahnersatz und jährliche Prophylaxe, würde ich Ihnen den Tarif **ZahnGesund 100** ans Herz legen. Er bietet Ihnen die höchste Erstattung und somit den umfangreichsten Schutz.\n\nWas meinen Sie? Sprechen wir über den ZahnGesund 100, oder möchten Sie noch etwas über die anderen Tarife wissen?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Hallo! Sie haben den Tarif \"ZahnGesund 100\" ausgewählt. Um Ihren Zahnversicherungsantrag zu vervollständigen, benötige ich einige grundlegende Informationen von Ihnen.\n\nBitte nennen Sie mir zunächst Ihren vollständigen Namen, so wie er in offiziellen Dokumenten erscheint (Vor- und Nachname)." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Hallo! Sie haben den Tarif \"ZahnGesund 100\" ausgewählt. Um Ihren Zahnversicherungsantrag zu vervollständigen, benötige ich einige grundlegende Informationen von Ihnen.\n\nBitte nennen Sie mir zunächst Ihren vollständigen Namen, so wie er in offiziellen Dokumenten erscheint (Vor- und Nachname)."
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Es tut mir leid, aber ich kann Ihre Anfrage ohne weitere Informationen nicht bearbeiten. Bitte nennen Sie mir Ihren vollständigen Namen (Vor- und Nachname), um fortzufahren." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Es tut mir leid, aber ich kann Ihre Anfrage ohne weitere Informationen nicht bearbeiten. Bitte nennen Sie mir Ihren vollständigen Namen (Vor- und Nachname), um fortzufahren."
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+        
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Es tut mir leid, aber ich kann Ihre Anfrage ohne weitere Informationen nicht bearbeiten. Bitte nennen Sie mir Ihren vollständigen Namen (Vor- und Nachname), um fortzufahren." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Es tut mir leid, aber ich kann Ihre Anfrage ohne weitere Informationen nicht bearbeiten. Bitte nennen Sie mir Ihren vollständigen Namen (Vor- und Nachname), um fortzufahren."
+      } ]
+    } ]
+  } ],
+  "orderedExpectations": [ {
+    "expectations": [ {
+      "expectedAction": {
+        "toolUse": {
+          "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/6b9b1d19-3c8e-4afb-a7d2-cee50597d7e7",
+          "action": "get_zz_info",
+          "inputActionParameters": {
+            "requestBody": {
+              "query": "Unterschiede bei Zahnersatz und professioneller Zahnreinigung zwischen ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100"
+            }
+          },
+          "outputActionParameters": {
+            "200": {
+              "answer": "Gerne, hier sind die Unterschiede bei Zahnersatz und professioneller Zahnreinigung zwischen den Tarifen ZahnGesund 75+, ZahnGesund 85+ und ZahnGesund 100:\n- **Zahnersatz (Erstattung inkl. GKV)**:\n  - ZahnGesund 75+: bis 75% + 5% Bonus\n  - ZahnGesund 85+: bis 85% + 5% Bonus\n  - ZahnGesund 100: bis 100%\n- **Zahnprophylaxe pro Jahr**:\n  - ZahnGesund 75+: bis 150 € (2 × 75 €)\n  - ZahnGesund 85+: bis 170 € (2 × 85 €)\n  - ZahnGesund 100: bis 200 € (2 × 100 €)",
+              "snippets": [ {
+                "text": "## Zahnzusatzversicherung: beste Tarife¹ für Ihre Zahngesundheit\n\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein8\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund (Testsieger) | 100 |\n|-|-|-|-|-|\n| Zahnbehandlung (z. B. hochwertige Füllungen) | 100% | 100% | 100% |  |\n| Wurzel- und Parodontose- Behandlung \u003cbr\u003e Info: Wurzel- und Parodontose-Behandlung werden in den Tarifen 577 und 578 ohne GKV-Vorleistung zu 75 % bzw. 85% erstattet. |  |  |  |  |\n|  | bis 100% | bis 100% | 100% |  |\n|  |  |  |  |  |\n| Zahnersatz \u003cbr\u003e Info: |  |  |  |  |\n| ZahnGesund 75+: 75% |  |  |  |  |\n| Erstattung inkl. GKV + 5 % |  |  |  |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 85+:85 % Erstattung inkl. GKV + 5% | bis 80% | bis 90% | bis 100% |  |\n| Upgrade bei geführtem |  |  |  |  |\n| Bonusheft. ZahnGesund 100: 100 |  |  |  |  |\n| % Erstattung inkl. GKV- |  |  |  |  |\n| Vorleistung. |  |  |  |  |\n| Zahnprophylaxe \u003cbr\u003e Info: ZahnGesund 75+: 2 × 75 € pro |  |  |  |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 85+: 2 × 85 € pro | bis 150 € | bis 170 € | bis 200 € |  |\n| Versicherungsjahr. ZahnGesund |  |  |  |  |\n| 100: 2 × 100 € pro Versicherungsjahr. |  |  |  |  |\n| Kieferorthopädie für Kinder bis |  |  |  |  |\n| 18 Jahre \u003cbr\u003e Info: Leistung für |  |  |  |  |\n| KIG 1-5. ZahnGesund 75+: Bei |  |  |  |  |\n| Unfall, 75 % max. 1.000 €. |  |  |  |  |\n| ZahnGesund 85+: Bei Unfall, 85 % max. 2.500 €. ZahnGesund 100: 100% max. 5.000 €. | bis 75% | bis 85% | bis 100% |  |\n| Maximale Leistungshöhen gelten je Altersgruppe für die gesamte Vertragsdauer. |  |  |  |  |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein9",
+                "title": "Zahnzusatzversicherung",
+                "uri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf#page=8"
+              } ]
+            }
+          }
+        }
+      }
+    } ]
+  }, {
+    "expectations": [ {
+      "expectedAction": {
+        "toolUse": {
+          "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/6b9b1d19-3c8e-4afb-a7d2-cee50597d7e7",
+          "action": "get_zz_info",
+          "inputActionParameters": {
+            "requestBody": {
+              "query": "Was bedeutet die Leistungsstaffel genau? Wie viel bekomme ich im ersten Jahr maximal erstattet?"
+            }
+          },
+          "outputActionParameters": {
+            "200": {
+              "answer": "Die Leistungsstaffel beschreibt die maximalen Erstattungsbeträge in den ersten Versicherungsjahren. Im ersten Jahr erhalten Sie maximal 900 € im Tarif ZahnGesund 75+, 1.000 € im Tarif ZahnGesund 85+ und 1.500 € im Tarif ZahnGesund 100.",
+              "snippets": [ {
+                "text": "## Zahnzusatzversicherung - Leistungen im Vergleich\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ | ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|-|\n| Beschreibung | Der günstige Einstieg | Top Schutz zum Bestpreis | Rundum-Schutz mit Premium Leistung |\n| Zahnbehandlung | 100% | 100% | 100% |\n| (z.B. hochwertige Füllungen) |  |  |  |\n| Wurzel- und Parodontose- | bis 100% | bis 100% | 100% |\n| Behandlung |  |  |  |\n| ohne GKV-Vorleistung | 75% | 85% |  |\n| Zahnersatz | bis 80% | bis 90% | bis 100% |\n| Erstattung inkl. GKV | 75\\%+5\\% Bonus | 85% + 5% Bonus | 100% |\n| Zahnprophylaxe | bis 150 € | bis 170 € | bis 200 € |\n| pro Jahr | 2\\times75~\\epsilon | 2\\times85\\epsilon | 2\\times100\\epsilon |\n| Kieferorthopädie Kinder (bis 18 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 5.000 € |\n| Kieferorthopädie Erw. (ab 19 J.) | bis 75% | bis 85% | bis 100% |\n| bei Unfall, max. | 1.000 € | 2.500 € | 2.500 € |\n| Zahn-Bleaching | Nein | Nein | bis 200 € |\n| alle 2 Versicherungsjahre |  |  |  |\n| Schmerzlinderung | bis 75 € | bis 150 € | bis 300 € |\n\n_END_OF_TABLE_\nZahnzusatzversicherung: Testsieger \"SEHR GUT\" | Münchener Verein2\n\n_START_OF_TABLE_\nTABLE_IN_MARKDOWN:\n| Leistung | ZahnGesund 75+ ZahnGesund 85+ | ZahnGesund 100 |\n|-|-|-|\n| (Akupunktur, Narkose, etc.) |  |  |\n| Leistungsstaffel 1. Jahr | 900 € 1.000 € | 1.500 € |\n| Leistungsstaffel 2. Jahr | 2.000 € 1.800 € | 3.000 € |\n| Leistungsstaffel 3. Jahr | 3.000 € 2.700 € | 4.500 € |\n| Leistungsstaffel 4. Jahr | 3.600 € 4.000 € | 6.000 € |\n| ab dem 5. Jahr | unbegrenzt unbegrenzt | unbegrenzt |\n| Anrechnung Vorversicherung | Ja Ja | Ja |\n| Mindestleistung Zahnersatz Bonusheft-Upgrade Keine Wartezeit Unfallsofortschutz Rechnungen mobil einreichen Auszeichnungen | mind. 80% mind. 70% Ja Ja Ja Ja GUT (1,8) Ja   Ja  Ja  Ja SEHR GUT (1,3) | mind. 90% Ja Ja Ja Ja SEHR GUT (0,5) |\n\n_END_OF_TABLE_\n",
+                "title": "Zahnzusatzversicherung",
+                "uri": "https://storage.cloud.google.com/mv-info/Zahnzusatzversicherung.pdf#page=2"
+              } ]
+            }
+          }
+        }
+      }
+    } ]
+  }, {
+    "expectations": [ {
+      "expectedAction": {
+        "playbookInvocation": {
+          "playbook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/998a90d7-9fe4-4eb3-8236-ef10314f827b",
+          "playbookInput": {
+            "precedingConversationSummary": "Der Kunde hat sich für den Tarif ZahnGesund 100 entschieden, da ihm eine erstklassige Absicherung für Zahnersatz und jährliche Prophylaxe wichtig ist. Es liegt keine Vorerkrankung oder angeratene Behandlung vor.",
+            "actionParameters": {
+              "selected_option": "ZahnGesund 100"
+            }
+          },
+          "playbookOutput": {
+            "state": "OK"
+          },
+          "playbookState": "OUTPUT_STATE_PENDING"
+        }
+      }
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753951158,
+    "nanos": 475728000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "de"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "d92dc6d1-e1fa-4698-aad7-4ce948c6def5",
+  "tags": [ "#Rückrufagent" ],
+  "displayName": "Can Schedule Callback",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hi, ich würde gerne einen Rückruf zu meiner Zahnzusatzversicherung anbieten"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Es tut mir leid, aber ich kann Ihnen derzeit keinen Rückruf zur Zahnzusatzversicherung anbieten. Die Funktion ist im Moment nicht verfügbar." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Es tut mir leid, aber ich kann Ihnen derzeit keinen Rückruf zur Zahnzusatzversicherung anbieten. Die Funktion ist im Moment nicht verfügbar."
+      } ]
+    } ]
+  } ],
+  "orderedExpectations": [ {
+    "expectations": [ {
+      "expectedAction": {
+        "toolUse": {
+          "tool": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/tools/df622441-7d3a-4029-a0ae-0bbc0ea7a544",
+          "action": "checkAvailability",
+          "outputActionParameters": {
+            "error": {
+              "detail": "Method Not Allowed"
+            }
+          }
+        }
+      }
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753948171,
+    "nanos": 241839000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/6bdbbce1-f805-43b1-bcd7-d61d255e1651/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "en"
+}

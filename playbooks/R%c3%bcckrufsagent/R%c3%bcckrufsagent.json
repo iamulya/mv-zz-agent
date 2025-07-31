@@ -1,10 +1,20 @@
 {
   "name": "6bdbbce1-f805-43b1-bcd7-d61d255e1651",
   "displayName": "Rückrufsagent",
-  "goal": "stellt rückruf bereit",
-  "tokenCount": 6,
+  "goal": "Du organisierst einen Rückruf Termin für den Kunden mit einem Kundenberater des Münchener Vereins, um alle weiteren Fragen bezüglich Versicherungen persönlich zu klären. ",
+  "tokenCount": 348,
+  "referencedPlaybooks": [ "Dokumentationsagent" ],
+  "referencedTools": [ "appointment-creator", "outlook-send-email", "search-through-calender" ],
   "instruction": {
-  
+    "steps": [ {
+      "text": "Use callback-service@rxry.onmicrosoft.com as $insurance_advisor_email, 30 as $duration_minutes, 3 as $number_of_time_slots, 14 as $max_days_ahead and call ${TOOL:search-through-calender} to look for availabe time slots for an appointment."
+    }, {
+      "text": "Ask user for $customer_name, $customer_phone and then call ${TOOL:appointment-creator} to create the appointment"
+    }, {
+      "text": "Next, ask the user for his email id and save it in $to_email, use \"MV Berater\" as $insurance_advisor_name, use callback-service@rxry.onmicrosoft.com as $from_email, use test as $callback_id and then call ${TOOL:outlook-send-email} to send the confirmation email to the customer"
+    }, {
+      "text": "In the end, tell the customer in a friendly way that the conversation will be logged and call the ${PLAYBOOK:Dokumentationsagent}"
+    } ]
   },
   "playbookType": "TASK",
   "codeBlock": {

@@ -1,0 +1,39 @@
+{
+  "name": "c912368e-941e-4462-ab44-138e979a412c",
+  "tags": [ "#Salesagent" ],
+  "displayName": "Andere Versicherung",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ich suche nach eine Privathaftpflichtversicherung"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde.\n\nIch sehe, Sie interessieren sich für eine Privathaftpflichtversicherung. Mein Fachgebiet ist ausschließlich die Zahnzusatzversicherung. Ich kann Ihnen leider keine Informationen zu anderen Versicherungen geben.\n\nFür Informationen zur Privathaftpflichtversicherung besuchen Sie bitte unsere Webseite unter www.muenchener-verein.de. Dort finden Sie alle Informationen zu unseren Produkten." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde.\n\nIch sehe, Sie interessieren sich für eine Privathaftpflichtversicherung. Mein Fachgebiet ist ausschließlich die Zahnzusatzversicherung. Ich kann Ihnen leider keine Informationen zu anderen Versicherungen geben.\n\nFür Informationen zur Privathaftpflichtversicherung besuchen Sie bitte unsere Webseite unter www.muenchener-verein.de. Dort finden Sie alle Informationen zu unseren Produkten."
+      } ]
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753950736,
+    "nanos": 858888000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "de"
+}

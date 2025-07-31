@@ -1,0 +1,8 @@
+{
+  "name": "38cd7d9b-02d8-426f-b9ea-998eda948c9b",
+  "displayName": "zz_get_price",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

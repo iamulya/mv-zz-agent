@@ -1,0 +1,9 @@
+{
+  "name": "d2227334-a407-4639-8e1b-ba6c31e6b4f0",
+  "displayName": "set_appointment",
+  "description": "Sets the selected appointment with customer.",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

@@ -1,0 +1,118 @@
+openapi: 3.0.0
+info:
+  title: Antrag Service API
+  description: API for the Antrag Service Cloud Function
+  version: 1.0.0
+servers:
+  - url: https://antrag-service-553278931801.europe-west1.run.app
+paths:
+  /:
+    post:
+      summary: Submit an insurance application
+      description: Processes a new insurance application.
+      operationId: antrag_service
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AntragRequest'
+      responses:
+        '200':
+          description: A successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AntragResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+components:
+  schemas:
+    AntragRequest:
+      type: object
+      required:
+        - Name
+        - Birthday
+        - Versicherungsbeginn
+        - Adresse
+        - Telefon
+        - Email
+        - InsuranceType
+        - BankDetails
+      properties:
+        Name:
+          type: string
+          example: Max Mustermann
+        Birthday:
+          type: string
+          example: 01.01.1990
+        Versicherungsbeginn:
+          type: string
+          example: 01.08.2025
+        Adresse:
+          type: string
+          example: Musterstraße 1, 12345 Musterstadt
+        Telefon:
+          type: string
+          example: +49 123 4567890
+        "Email ID":
+          type: string
+          example: max.mustermann@example.com
+        InsuranceType:
+          type: string
+          example: Haftpflicht
+        BankDetails:
+          type: string
+          example: DE89 3704 0044 0532 0130 00
+    AntragResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: success
+        message:
+          type: string
+          example: |
+            Antrag abgeschlossen. Ihre Daten: 
+            Name: Max Mustermann
+            Geburtstag: 01.01.1990
+            Versicherungsbeginn: 01.08.2025
+            Adresse: Musterstraße 1, 12345 Musterstadt
+            Telefon: +49 123 4567890
+            Email: max.mustermann@example.com
+            Versicherungstyp: Haftpflicht
+            Bankverbindung (IBAN): DE89 3704 0044 0532 0130 00
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+              - type: string
+              - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+      type: object
+      required:
+        - loc
+        - msg
+        - type
+      title: ValidationError

@@ -1,0 +1,27 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Wie lautet die Postfachadresse?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "parts": [ {
+      "text": "Wohin kann ich Post schicken?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "parts": [ {
+      "text": "Hauptsitz"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  }, {
+    "parts": [ {
+      "text": "Wo ist der Hauptsitz?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "de"
+  } ]
+}

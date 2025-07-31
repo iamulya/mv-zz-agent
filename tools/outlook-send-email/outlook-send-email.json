@@ -1,0 +1,9 @@
+{
+  "name": "d7ac8107-df6e-4934-a73f-c03cc64e224d",
+  "displayName": "outlook-send-email",
+  "description": "This tool will be used for sending emails",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

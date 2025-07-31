@@ -1,0 +1,101 @@
+openapi: 3.1.0
+info:
+  title: Send Email API
+  description: Send confirmation email to customer via Outlook.
+  version: 1.0.0
+servers:
+  - url: https://callback-service-348511322333.europe-west3.run.app
+    description: Production server
+paths:
+  /api/email/send:
+    post:
+      summary: Send Email
+      operationId: sendEmail
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendEmailRequest'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SendEmailResponse'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+components:
+  schemas:
+    SendEmailRequest:
+      type: object
+      properties:
+        from_email:
+          type: string
+          example: callback-service@rxry.onmicrosoft.com
+        to_email:
+          type: string
+          example: kunde@example.com
+        customer_name:
+          type: string
+          example: Max Mustermann
+        insurance_advisor_name:
+          type: string
+          example: Erika Musterfrau
+        appointment_time:
+          type: string
+          example: '2025-07-30T10:00:00'
+        callback_id:
+          type: string
+          example: cb-123456
+      required:
+        - from_email
+        - to_email
+        - customer_name
+        - insurance_advisor_name
+        - appointment_time
+        - callback_id
+    SendEmailResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: success
+        result:
+          type: object
+          properties:
+            status:
+              type: string
+              example: sent
+            message_id:
+              type: string
+              example: email_sent
+    HTTPValidationError:
+      type: object
+      properties:
+        detail:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValidationError'
+    ValidationError:
+      type: object
+      required:
+        - loc
+        - msg
+        - type
+      properties:
+        loc:
+          type: array
+          items:
+            anyOf:
+              - type: string
+              - type: integer
+        msg:
+          type: string
+        type:
+          type: string

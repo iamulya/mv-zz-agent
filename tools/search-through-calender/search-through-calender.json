@@ -1,0 +1,14 @@
+{
+  "name": "df622441-7d3a-4029-a0ae-0bbc0ea7a544",
+  "displayName": "search-through-calender",
+  "description": "Finds the next three available spots in test calender",
+  "openApiSpec": {
+    "authentication": {
+      "serviceAgentAuthConfig": {
+        "serviceAgentAuth": "ID_TOKEN"
+      }
+    },
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

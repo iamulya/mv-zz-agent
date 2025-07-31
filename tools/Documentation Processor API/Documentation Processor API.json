@@ -1,0 +1,9 @@
+{
+  "name": "e3f06df8-ef92-4668-bccb-65a0137036ff",
+  "displayName": "Documentation Processor API",
+  "description": "Gets complete conversation for a conversation id, creates a summary for it and uploads the result in a cloud storage bucket",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

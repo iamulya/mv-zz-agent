@@ -1,0 +1,43 @@
+{
+  "name": "892f1910-1a1f-4965-9062-4a3647709eb8",
+  "displayName": "Information",
+  "description": "This is to provide information about Münchener Verein.",
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ich verstehe deine Frage leider nicht.", "Entschuldige bitte, ich habe deine Frage nicht verstanden.", "Ich bin nicht so sicher, ob ich dich richtig verstanden habe.", "Leider kann ich nicht verstehen, was du von mir möchtest.", "Kannst du das noch mal anders formulieren?" ]
+        },
+        "languageCode": "de"
+      } ]
+    },
+    "name": "da7e69a0-5b03-4452-91f9-c62a22ccd747"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ich verstehe deine Frage leider nicht.", "Entschuldige bitte, ich habe deine Frage nicht verstanden.", "Ich bin nicht so sicher, ob ich dich richtig verstanden habe.", "Leider kann ich nicht verstehen, was du von mir möchtest.", "Kannst du das noch mal anders formulieren?" ]
+        },
+        "languageCode": "de"
+      } ]
+    },
+    "name": "860e84b0-c932-44ad-9b1c-73aab08537d2"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "118521d7-85b8-4742-b20a-1840d32ee4b8",
+    "languageCode": "de"
+  } ]
+}

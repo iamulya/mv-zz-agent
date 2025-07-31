@@ -1,0 +1,35 @@
+{
+  "name": "89d05486-2b45-44ae-ba3d-c15c9525d51f",
+  "tags": [ "#Terminvereinbarungsagent" ],
+  "displayName": "Basic Test Case",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hallo, ich würde gerne einen Termin vereinbaren"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+      
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": ""
+      } ]
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753950832,
+    "nanos": 962010000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/3ce8378a-f2ef-43ab-b9a8-aca6aa8f90c3/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "en"
+}

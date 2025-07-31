@@ -1,0 +1,159 @@
+{
+  "name": "acc59038-2486-4ab5-a910-a60cb26ffbc5",
+  "displayName": "Termin Vereinbarung weil Versicherung nicht Zahnzusatz",
+  "conversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Hi, ich brauche eine Haftflichtversicherung"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde.\n\nAllerdings bin ich spezialisiert auf Zahnzusatzversicherungen. Für eine Haftpflichtversicherung kann ich Ihnen leider nicht direkt weiterhelfen.\n\nIch kann Ihnen aber anbieten, Sie auf unsere Hauptseite www.muenchener-verein.de zu verweisen, wo Sie Informationen zu all unseren Produkten finden.\n\nMöchten Sie stattdessen, dass ich einen Rückruf für Sie organisiere, damit ein Kollege Sie bezüglich einer Haftpflichtversicherung beraten kann, oder möchten Sie lieber einen Termin vereinbaren?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Guten Tag! Mein Name ist Max vom Münchener Verein. Ich bin Ihr Experte für die Testsieger-Zahnzusatzversicherung 'ZahnGesund' vom Münchener Verein, die von Stiftung Warentest mit 'SEHR GUT' ausgezeichnet wurde.\n\nAllerdings bin ich spezialisiert auf Zahnzusatzversicherungen. Für eine Haftpflichtversicherung kann ich Ihnen leider nicht direkt weiterhelfen.\n\nIch kann Ihnen aber anbieten, Sie auf unsere Hauptseite www.muenchener-verein.de zu verweisen, wo Sie Informationen zu all unseren Produkten finden.\n\nMöchten Sie stattdessen, dass ich einen Rückruf für Sie organisiere, damit ein Kollege Sie bezüglich einer Haftpflichtversicherung beraten kann, oder möchten Sie lieber einen Termin vereinbaren?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Ein Termin klingt gut. Ich hätte Anfang nächster Woche Zeit"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Sehr gerne. Einen festen Beratungstermin können wir einfach online vereinbaren. Ich übergebe Sie für die Terminfindung kurz an unseren intelligenten Planungs-Assistenten. Er findet in Sekundenschnelle die besten verfügbaren Zeiten.\n" ]
+          }
+        }, {
+          "text": {
+            "text": [ "Guten Tag! Ich helfe Ihnen gerne dabei, einen Termin zu vereinbaren.\n\n" ]
+          }
+        }, {
+          "text": {
+            "text": [ "Ich habe drei Termine für Sie gefunden:\n\n* 31.07.2025 um 14:15 Uhr\n* 31.07.2025 um 14:30 Uhr\n* 31.07.2025 um 14:45 Uhr\n\nWelcher dieser Termine passt Ihnen am besten?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Sehr gerne. Einen festen Beratungstermin können wir einfach online vereinbaren. Ich übergebe Sie für die Terminfindung kurz an unseren intelligenten Planungs-Assistenten. Er findet in Sekundenschnelle die besten verfügbaren Zeiten.\nGuten Tag! Ich helfe Ihnen gerne dabei, einen Termin zu vereinbaren.\n\nIch habe drei Termine für Sie gefunden:\n\n* 31.07.2025 um 14:15 Uhr\n* 31.07.2025 um 14:30 Uhr\n* 31.07.2025 um 14:45 Uhr\n\nWelcher dieser Termine passt Ihnen am besten?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "um 14:30 passt"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Alles klar, der Termin am 31.07.2025 um 14:30 Uhr. Könnten Sie mir bitte noch Ihren vollständigen Namen und Ihre Telefonnummer mitteilen, damit ich den Termin für Sie festlegen kann?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Alles klar, der Termin am 31.07.2025 um 14:30 Uhr. Könnten Sie mir bitte noch Ihren vollständigen Namen und Ihre Telefonnummer mitteilen, damit ich den Termin für Sie festlegen kann?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Alina Mayer"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank, Frau Mayer. Und Ihre Telefonnummer bitte?" ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Vielen Dank, Frau Mayer. Und Ihre Telefonnummer bitte?"
+      } ]
+    } ]
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "0152 3231334"
+        }
+      }
+    },
+    "agentOutput": {
+      "queryResult": {
+        "responseMessages": [ {
+          "text": {
+            "text": [ "Vielen Dank, Frau Mayer. Ich bestätige Ihnen den Termin für den 31.07.2025 um 14:30 Uhr.\n\n" ]
+          }
+        }, {
+          "text": {
+            "text": [ "Ich habe den Termin für Sie eingestellt. Sie erhalten gleich eine E-Mail mit den Termindetails.\n\nGibt es sonst noch etwas, womit ich Ihnen behilflich sein kann?\n\nIch wünsche Ihnen einen schönen Tag!\n" ]
+          }
+        }, {
+          "text": {
+            "text": [ "Sehr geehrte Kundin, sehr geehrter Kunde, ich bin Ihr Gesprächsprotokollant. Ich werde nun das Tool zur Dokumentation aufrufen, um unser Gespräch zu protokollieren.\n\n" ]
+          }
+        }, {
+          "text": {
+            "text": [ "Vielen Dank für Ihre Geduld. Die Protokollierung unseres Gesprächs wurde erfolgreich abgeschlossen. Sie können weitere Informationen zu allen Versicherungen der Münchener Verein auf unserer Website www.muenchener-verein.de finden." ]
+          }
+        } ]
+      }
+    },
+    "metricGoldens": [ {
+      "goldens": [ {
+        "goldenAgentUtterance": "Vielen Dank, Frau Mayer. Ich bestätige Ihnen den Termin für den 31.07.2025 um 14:30 Uhr.\n\nIch habe den Termin für Sie eingestellt. Sie erhalten gleich eine E-Mail mit den Termindetails.\n\nGibt es sonst noch etwas, womit ich Ihnen behilflich sein kann?\n\nIch wünsche Ihnen einen schönen Tag!\nSehr geehrte Kundin, sehr geehrter Kunde, ich bin Ihr Gesprächsprotokollant. Ich werde nun das Tool zur Dokumentation aufrufen, um unser Gespräch zu protokollieren.\n\nVielen Dank für Ihre Geduld. Die Protokollierung unseres Gesprächs wurde erfolgreich abgeschlossen. Sie können weitere Informationen zu allen Versicherungen der Münchener Verein auf unserer Website www.muenchener-verein.de finden."
+      } ]
+    } ]
+  } ],
+  "orderedExpectations": [ {
+    "expectations": [ {
+      "expectedAction": {
+        "playbookInvocation": {
+          "playbook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/3ce8378a-f2ef-43ab-b9a8-aca6aa8f90c3",
+          "playbookOutput": {
+            "state": "OK"
+          },
+          "playbookState": "OUTPUT_STATE_PENDING"
+        }
+      }
+    } ]
+  } ],
+  "createTime": {
+    "seconds": 1753963594,
+    "nanos": 243180000
+  },
+  "testConfig": {
+    "startPlaybook": "projects/qwiklabs-gcp-00-c9b16f4a286e/locations/global/agents/b07b1909-a3bf-4b6c-9d5d-bf1706c5ad69/playbooks/00000000-0000-0000-0000-000000000000/versions/0",
+    "textSession": {
+    
+    }
+  },
+  "languageCode": "en"
+}

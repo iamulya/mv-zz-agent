@@ -1,0 +1,41 @@
+{
+  "name": "6b9b1d19-3c8e-4afb-a7d2-cee50597d7e7",
+  "displayName": "get_zz_info",
+  "description": "stellt jegliche Informationen zu den ZahnzusatzversicherungsProdukten von Münchener Verein bereit",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/553278931801/locations/global/collections/default_collection/dataStores/zz-info-layout-parser_1753773359918",
+      "documentProcessingMode": "CHUNKS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1753773372,
+        "nanos": 851362000
+      },
+      "displayName": "zz-info-layout-parser",
+      "dialogflowAddTime": {
+        "seconds": 1753775845,
+        "nanos": 552000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "gemini_25_flash"
+      },
+      "rewriterModel": {
+        "model": "gemini_25_flash"
+      }
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "mode": "MODE_CUSTOM"
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

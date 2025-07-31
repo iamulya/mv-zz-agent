@@ -1,0 +1,120 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Send Email API",
+    "version": "1.0.0",
+    "description": "Send email notifications for insurance callback appointments"
+  },
+  "servers": [
+    {
+      "url": "https://callback-service-348511322333.europe-west3.run.app",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/api/email/send": {
+      "post": {
+        "summary": "Send Email",
+        "operationId": "send_email_api_email_send_post",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "from_email": {
+                    "type": "string",
+                    "description": "From email address",
+                    "default": "callback-service@rxry.onmicrosoft.com"
+                  },
+                  "to_email": {
+                    "type": "string",
+                    "description": "To email address",
+                    "default": "kunde@example.com"
+                  },
+                  "customer_name": {
+                    "type": "string",
+                    "description": "Customer name",
+                    "default": "Max Mustermann"
+                  },
+                  "insurance_advisor_name": {
+                    "type": "string",
+                    "description": "Insurance advisor name",
+                    "default": "Erika Musterfrau"
+                  },
+                  "appointment_time": {
+                    "type": "string",
+                    "description": "Appointment time",
+                    "default": "2025-07-30T10:00:00"
+                  },
+                  "callback_id": {
+                    "type": "string",
+                    "description": "Callback ID",
+                    "default": "cb-123456"
+                  }
+                },
+                "required": [
+                  "from_email",
+                  "to_email",
+                  "customer_name",
+                  "insurance_advisor_name",
+                  "appointment_time",
+                  "callback_id"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Email sent successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "detail": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "loc": {
+                            "type": "array",
+                            "items": {
+                              "anyOf": [
+                                {"type": "string"},
+                                {"type": "integer"}
+                              ]
+                            }
+                          },
+                          "msg": {
+                            "type": "string"
+                          },
+                          "type": {
+                            "type": "string"
+                          }
+                        },
+                        "required": ["loc", "msg", "type"]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
